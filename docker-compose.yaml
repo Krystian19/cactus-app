@@ -2,13 +2,12 @@ version: '3'
 
 services:
   mysql:
-    build: mysql:5.7.24
+    image: mysql:5.7.24
     environment:
       MYSQL_ROOT_PASSWORD: "secret"
+      MYSQL_DATABASE: "cactus_app"
     ports: ['3306:3306']
-    command: >
-      sh -c "mysql -u root -p${MYSQL_ROOT_PASSWORD} -e "CREATE DATABASE cactus_app" &&
-              echo 'Database created'"
+
   backend:
     build:
       ./backend
