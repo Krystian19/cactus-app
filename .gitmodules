@@ -2,3 +2,7 @@
 	path = backend
 	url = git@github.com:Krystian19/cactus-app-backend-service.git
 	branch = master
+[submodule "client"]
+	path = client
+	url = git@github.com:Krystian19/cactus-app-client-service.git
+	branch = master
