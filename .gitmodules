@@ -1,0 +1,4 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:Krystian19/cactus-app-backend-service.git
+	branch = master
