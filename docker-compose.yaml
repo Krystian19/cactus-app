@@ -8,6 +8,16 @@ services:
       MYSQL_DATABASE: "cactus_app"
     ports: ['3306:3306']
 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: "1234"
+      PMA_HOST: "mysql"
+      PMA_PORT: "3306"
+    ports: ['8080:80']
+    links:
+      - mysql
+
   backend:
     build:
       ./backend
