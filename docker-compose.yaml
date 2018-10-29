@@ -43,6 +43,9 @@ services:
     volumes:
       - ./client:/app
     ports: ['5000:3000']
+    environment:
+      # URL of the service that is running a backend instance
+      BACKEND_SERVICE_URL: "http://backend:3000/"
     links:
       - backend
     depends_on:
