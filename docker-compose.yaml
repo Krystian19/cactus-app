@@ -1,4 +1,4 @@
-version: '3'
+version: '2.3'
 
 services:
   mysql:
@@ -6,6 +6,10 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: "secret"
       MYSQL_DATABASE: "cactus_app"
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
     ports: ['3306:3306']
 
   phpmyadmin:
@@ -31,11 +35,13 @@ services:
       DB_USERNAME: "root"
       DB_PASSWORD: "secret"
       DB_FORCE_RESTART: "false"
+    restart: on-failure
     ports: ['3000:3000']
     links:
       - mysql
     depends_on:
-      - mysql
+      mysql:
+        condition: service_healthy
   
   client:
     build:
