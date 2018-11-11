@@ -6,3 +6,7 @@
 	path = client
 	url = git@github.com:Krystian19/cactus-app-client-service.git
 	branch = master
+[submodule "image-cdn"]
+	path = image-cdn
+	url = git@github.com:Krystian19/cactus-fake-image-cdn-service.git
+	branch = master
