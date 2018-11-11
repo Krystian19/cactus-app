@@ -56,16 +56,28 @@ services:
 
       # URL of the local image cdn service
       IMG_CDN_SERVICE_URL: "http://img_cdn:3000/"
+
+      # URL of the local video cdn service
+      VIDEO_CDN_SERVICE_URL: "http://video_cdn:3000/"
     links:
       - backend
       - img_cdn
+      - video_cdn
     depends_on:
       - backend
       - img_cdn
+      - video_cdn
   
-  img_cdn: # Local cdn service
+  img_cdn: # Local image CDN service
     build:
       ./image-cdn
     volumes:
       - ./image-cdn/src/img/:/app/src/img/
     ports: ['8000:3000']
+  
+  video_cdn: # Local video CDN service
+    build:
+      ./video-cdn
+    volumes:
+      - ./video-cdn/src/img/:/app/src/img/
+    ports: ['9000:3000']
