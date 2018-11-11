@@ -18,7 +18,9 @@ docker-compose up -d
 
 - [x] Setup the eslint line length max of 80 on all js-centric services and submodules.
 - [ ] Create a fake CDN Image Service. (emulate a remote cdn with a local service).
+    - [ ] Install cdn service for client's app consumption
 - [ ] Create a fake Video Host Service. (emulate a remote video host with a local service).
+    - [ ] Include a Reactjs based video player in the client app.
 - [ ] Create a service to manage the content on the app, and db migrations. (preferably a django app).
 <!-- - [x] Venus -->
 
