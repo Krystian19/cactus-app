@@ -17,7 +17,7 @@ docker-compose up -d
 ## Todo list
 
 - [x] Setup the eslint line length max of 80 on all js-centric services and submodules.
-- [ ] Setup client's app to consume the local image cdn.
+- [x] Setup client's app to consume the local image cdn.
     - [x] Create a fake CDN Image Service. (emulate a remote cdn with a local service).
 - [ ] Include a Reactjs based video player in the client app.
     - [ ] Create a fake Video Host Service. (emulate a remote video host with a local service).

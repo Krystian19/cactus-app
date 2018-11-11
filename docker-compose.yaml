@@ -53,6 +53,9 @@ services:
     environment:
       # URL of the service that is running a backend instance
       BACKEND_SERVICE_URL: "http://backend:3000/"
+
+      # URL of the local image cdn service
+      IMG_CDN_SERVICE_URL: "http://img_cdn:3000/"
     links:
       - backend
       - img_cdn
