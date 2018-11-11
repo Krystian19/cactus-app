@@ -55,5 +55,14 @@ services:
       BACKEND_SERVICE_URL: "http://backend:3000/"
     links:
       - backend
+      - img_cdn
     depends_on:
       - backend
+      - img_cdn
+  
+  img_cdn: # Local cdn service
+    build:
+      ./image-cdn
+    volumes:
+      - ./image-cdn/src/img/:/app/src/img/
+    ports: ['8000:3000']
