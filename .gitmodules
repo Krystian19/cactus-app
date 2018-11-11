@@ -10,3 +10,7 @@
 	path = image-cdn
 	url = git@github.com:Krystian19/cactus-fake-image-cdn-service.git
 	branch = master
+[submodule "video-cdn"]
+	path = video-cdn
+	url = git@github.com:Krystian19/cactus-fake-video-cdn-service.git
+	branch = master
