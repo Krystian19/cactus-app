@@ -79,5 +79,5 @@ services:
     build:
       ./video-cdn
     volumes:
-      - ./video-cdn/src/img/:/app/src/img/
+      - ./video-cdn/src/videos/:/app/src/videos/
     ports: ['9000:3000']
