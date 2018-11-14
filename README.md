@@ -24,7 +24,10 @@ docker-compose up -d
     - [x] Create a fake CDN Image Service. (emulate a remote cdn with a local service).
 - [x] Include a Reactjs based video player in the client app.
     - [x] Create a fake Video Host Service. (emulate a remote video host with a local service).
-- [ ] Create a service to manage the content on the app, and db migrations. (preferably a django app).
+- [x] Create a service to manage the content on the app, and db migrations. (preferably a django app).
+    - [ ] Replicate sequelize's models into the backend admin app
+    - [ ] Write db migrations for the current models
+    - [ ] Expose relevant models to the Django Admin profile
 <!-- - [x] Venus -->
 
 ## License
