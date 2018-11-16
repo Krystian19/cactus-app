@@ -18,17 +18,23 @@ docker-compose up -d
 ```
 
 ## Todo list
+- [ ] Setup backend service testing pipeline, maintainability score, and code coverage
+    - [ ] Write tests for this service
+    - [ ] Write travisci configfile for this module
+    - [ ] Setup db module testing pipeline, maintainability score, and code coverage
+        - [ ] Write seeder script for this module
+        - [ ] Write tests for this module
+        - [ ] Write travisci configfile for this module
+    - [ ] Setup schema module testing pipeline, maintainability score, and code coverage
+        - [ ] Write tests for this module
+        - [ ] Write travisci configfile for this module
+- [ ] Setup backend_admin service testing pipeline, maintainability score, and code coverage
+    - [ ] Write tests for this service
+    - [ ] Write travisci configfile for this module
+- [ ] Setup client service testing pipeline, maintainability score, and code coverage
+    - [ ] Write tests for this service
+    - [ ] Write travisci configfile for this module
 
-- [x] Setup the eslint line length max of 80 on all js-centric services and submodules.
-- [x] Setup client's app to consume the local image cdn.
-    - [x] Create a fake CDN Image Service. (emulate a remote cdn with a local service).
-- [x] Include a Reactjs based video player in the client app.
-    - [x] Create a fake Video Host Service. (emulate a remote video host with a local service).
-- [x] Create a service to manage the content on the app, and db migrations. (preferably a django app).
-    - [x] Replicate sequelize's models into the backend admin app
-    - [x] Write db migrations for the current models
-    - [x] Expose relevant models to the Django Admin profile
-    - [x] Write seeders for all the Django Admin models
 
 <!-- - [x] Venus -->
 
