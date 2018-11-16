@@ -28,7 +28,7 @@ docker-compose up -d
     - [x] Replicate sequelize's models into the backend admin app
     - [x] Write db migrations for the current models
     - [x] Expose relevant models to the Django Admin profile
-    - [ ] Write seeders for all the Django Admin models
+    - [x] Write seeders for all the Django Admin models
 
 <!-- - [x] Venus -->
 
