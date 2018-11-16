@@ -20,19 +20,23 @@ docker-compose up -d
 ## Todo list
 - [ ] Setup backend service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
+        - [ ] Write instructions of how to run the tests
     - [ ] Write travisci configfile for this module
     - [ ] Setup db module testing pipeline, maintainability score, and code coverage
         - [ ] Write seeder script for this module
         - [ ] Write tests for this module
+            - [ ] Write instructions of how to run the tests
         - [ ] Write travisci configfile for this module
     - [ ] Setup schema module testing pipeline, maintainability score, and code coverage
         - [ ] Write tests for this module
         - [ ] Write travisci configfile for this module
 - [ ] Setup backend_admin service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
+        - [ ] Write instructions of how to run the tests
     - [ ] Write travisci configfile for this module
 - [ ] Setup client service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
+        - [ ] Write instructions of how to run the tests
     - [ ] Write travisci configfile for this module
 
 
