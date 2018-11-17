@@ -32,7 +32,7 @@ exit
 The web client should be running @ http://localhost:5000/
 
 ## Todo list
-- [ ] Setup backend service testing pipeline, maintainability score, and code coverage
++ - [ ] Setup backend service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
         - [ ] Write instructions of how to run the tests
     - [ ] Write travisci configfile for this module
@@ -44,11 +44,11 @@ The web client should be running @ http://localhost:5000/
     - [ ] Setup schema module testing pipeline, maintainability score, and code coverage
         - [ ] Write tests for this module
         - [ ] Write travisci configfile for this module
-- [ ] Setup backend_admin service testing pipeline, maintainability score, and code coverage
++ - [ ] Setup backend_admin service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
         - [ ] Write instructions of how to run the tests
     - [ ] Write travisci configfile for this module
-- [ ] Setup client service testing pipeline, maintainability score, and code coverage
++ - [ ] Setup client service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
         - [ ] Write instructions of how to run the tests
     - [ ] Write travisci configfile for this module
