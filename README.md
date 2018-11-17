@@ -32,8 +32,6 @@ exit
 The web client should be running @ http://localhost:5000/
 
 ## Todo list
-+ - [ ] Setup client service image lazy loading
-+ - [ ] Setup client service component prop validations
 + - [ ] Setup backend service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
         - [ ] Write instructions of how to run the tests
