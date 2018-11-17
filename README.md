@@ -17,6 +17,20 @@ And start the project with:
 docker-compose up -d
 ```
 
+Run the seeders ...
+```sh
+# Enter the backend_admin container
+docker exec -ti cactus-app_backend_admin_1 /bin/bash
+
+# Once inside run the fixtures
+python manage.py loaddata Anime/fixtures/*.json
+
+# Exit the container
+exit
+```
+
+The web client should be running @ http://localhost:5000/
+
 ## Todo list
 - [ ] Setup backend service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
