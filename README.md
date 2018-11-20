@@ -32,7 +32,7 @@ exit
 The web client should be running @ http://localhost:5000/
 
 ## Todo list
-+ - [ ] Setup a more stable process of Anime, Episode and Season creation in the backend_admin (currently unstable and volatile)
++ - [x] Setup a more stable process of Anime, Episode and Season creation in the backend_admin (currently unstable and volatile)
 + - [ ] Setup backend service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
         - [ ] Write instructions of how to run the tests
