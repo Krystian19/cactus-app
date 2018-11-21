@@ -1,5 +1,5 @@
 # Cactus app
-Cactus app project repo.
+Cactus app is an open source service to stream your favorite anime.
 
 ## Repositories 
 |  [Backend Repo](https://github.com/Krystian19/cactus-app-backend-service/tree/master) | [Video CDN Repository](https://github.com/Krystian19/cactus-fake-video-cdn-service/tree/master) | [Image CDN Repository](https://github.com/Krystian19/cactus-fake-video-cdn-service/tree/master) |
