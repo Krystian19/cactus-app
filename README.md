@@ -1,6 +1,12 @@
 # Cactus app
 Cactus app project repo.
 
+## Repositories 
+
+| [Backend Repo](https://github.com/Krystian19/cactus-app-backend-service/tree/master) | [Video CDN Repository](https://github.com/Krystian19/cactus-fake-video-cdn-service/tree/master) 
+|:-------------:|:-------------:|
+| [![Build Status](https://travis-ci.org/Krystian19/cactus-app-backend-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-backend-service) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-app-backend-service/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-app-backend-service)     | [![Build Status](https://travis-ci.org/Krystian19/cactus-fake-video-cdn-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-fake-video-cdn-service) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-fake-video-cdn-service/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-fake-video-cdn-service)
+
 ## Screenshots
 ![Alt text](screenshots/view1.png?raw=true "Anime Description")
 
