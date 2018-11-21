@@ -34,25 +34,25 @@ The web client should be running @ http://localhost:5000/
 ## Todo list
 + - [x] Setup a more stable process of Anime, Episode and Season creation in the backend_admin (currently unstable and volatile)
 + - [ ] Setup backend service testing pipeline, maintainability score, and code coverage
-    - [ ] Write tests for this service
+    - [x] Write tests for this service
         - [ ] Write instructions of how to run the tests
-    - [ ] Write travisci configfile for this module
+    - [x] Write travis configfile for this module
     - [ ] Setup db module testing pipeline, maintainability score, and code coverage
         - [ ] Write seeder script for this module
         - [ ] Write tests for this module
             - [ ] Write instructions of how to run the tests
-        - [ ] Write travisci configfile for this module
+        - [ ] Write travis configfile for this module
     - [ ] Setup schema module testing pipeline, maintainability score, and code coverage
         - [ ] Write tests for this module
-        - [ ] Write travisci configfile for this module
+        - [ ] Write travis configfile for this module
 + - [ ] Setup backend_admin service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
         - [ ] Write instructions of how to run the tests
-    - [ ] Write travisci configfile for this module
+    - [ ] Write travis configfile for this module
 + - [ ] Setup client service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
         - [ ] Write instructions of how to run the tests
-    - [ ] Write travisci configfile for this module
+    - [ ] Write travis configfile for this module
 
 
 <!-- - [x] Venus -->
