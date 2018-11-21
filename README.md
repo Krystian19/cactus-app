@@ -38,15 +38,15 @@ The web client should be running @ http://localhost:5000/
 
 ## Todo list
 + - [x] Setup a more stable process of Anime, Episode and Season creation in the backend_admin (currently unstable and volatile)
-+ - [ ] Setup backend service testing pipeline, maintainability score, and code coverage
++ - [x] Setup backend service testing pipeline, maintainability score, and code coverage
     - [x] Write tests for this service
         - [ ] Write instructions of how to run the tests
     - [x] Write travis configfile for this module
-    - [ ] Setup db module testing pipeline, maintainability score, and code coverage
+    - [x] Setup db module testing pipeline, maintainability score, and code coverage
         - [ ] Write seeder script for this module
-        - [ ] Write tests for this module
-            - [ ] Write instructions of how to run the tests
-        - [ ] Write travis configfile for this module
+        - [x] Write tests for this module
+            - [x] Write instructions of how to run the tests
+        - [x] Write travis configfile for this module
     - [x] Setup schema module testing pipeline, maintainability score, and code coverage
         - [x] Write tests for this module
         - [x] Write travis configfile for this module
