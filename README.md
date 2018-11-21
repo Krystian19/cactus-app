@@ -47,9 +47,9 @@ The web client should be running @ http://localhost:5000/
         - [ ] Write tests for this module
             - [ ] Write instructions of how to run the tests
         - [ ] Write travis configfile for this module
-    - [ ] Setup schema module testing pipeline, maintainability score, and code coverage
-        - [ ] Write tests for this module
-        - [ ] Write travis configfile for this module
+    - [x] Setup schema module testing pipeline, maintainability score, and code coverage
+        - [x] Write tests for this module
+        - [x] Write travis configfile for this module
 + - [ ] Setup backend_admin service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
         - [ ] Write instructions of how to run the tests
