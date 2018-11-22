@@ -50,6 +50,7 @@ The web client should be running @ http://localhost:5000/
     - [ ] Write tests for this service
         - [ ] Write instructions of how to run the tests
     - [ ] Write travis configfile for this module
+    - [x] Write seeder script for this module
 + - [ ] Setup client service testing pipeline, maintainability score, and code coverage
     - [ ] Write tests for this service
         - [ ] Write instructions of how to run the tests
