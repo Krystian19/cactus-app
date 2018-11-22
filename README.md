@@ -23,15 +23,11 @@ docker-compose up -d
 ```
 
 Run the seeders ...
+
+NOTE: Where "cactus-app_backend_admin_1" is the fullname of the running backend container, it might change in newer versions of docker, so do a "docker ps" to find out the fullname of the running backend_admin container.
 ```sh
-# Enter the backend_admin container
-docker exec -ti cactus-app_backend_admin_1 /bin/bash
-
-# Once inside run the fixtures
-python manage.py loaddata Anime/fixtures/*.json
-
-# Exit the container
-exit
+# Run the seeders
+docker exec -ti cactus-app_backend_admin_1 /code/seeds.sh
 ```
 
 The web client should be running @ http://localhost:5000/
