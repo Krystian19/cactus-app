@@ -33,6 +33,7 @@ docker exec -ti cactus-app_backend_admin_1 /code/seeds.sh
 The web client should be running @ http://localhost:5000/
 
 ## Todo list
++ - [ ] Add more series to the backend-admin's seeding script data
 + - [x] Setup a more stable process of Anime, Episode and Season creation in the backend_admin (currently unstable and volatile)
 + - [x] Setup backend service testing pipeline, maintainability score, and code coverage
     - [x] Write tests for this service
