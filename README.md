@@ -1,7 +1,7 @@
 # Cactus app
 Cactus app is an open source service to stream your favorite anime.
 
-## Repositories 
+## Service Repositories
 |  [Backend Repo](https://github.com/Krystian19/cactus-app-backend-service/tree/master) | [Backend Admin Repo](https://github.com/Krystian19/cactus-app-backend-admin-service/tree/master) | [Video CDN Repo](https://github.com/Krystian19/cactus-fake-video-cdn-service/tree/master) |
 |:---------------------:|:---------------------:|:---------------------:|
 | [![Build Status](https://travis-ci.org/Krystian19/cactus-app-backend-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-backend-service) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-app-backend-service/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-app-backend-service)       | [![Build Status](https://travis-ci.org/Krystian19/cactus-app-backend-admin-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-backend-admin-service) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-app-backend-admin-service/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-app-backend-admin-service)  | [![Build Status](https://travis-ci.org/Krystian19/cactus-fake-video-cdn-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-fake-video-cdn-service) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-fake-video-cdn-service/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-fake-video-cdn-service) |
@@ -53,7 +53,7 @@ The web client should be running @ http://localhost:5000/
         - [x] Write travis configfile for this module
 + - [x] Setup backend_admin service testing pipeline, maintainability score
     - [x] Write tests for this service
-        - [ ] Write instructions of how to run the tests
+        - [x] Write instructions of how to run the tests
     - [x] Write travis configfile for this module
     - [x] Write seeder script for this module
 + - [ ] Setup client service testing pipeline, maintainability score
