@@ -51,6 +51,7 @@ The web client should be running @ http://localhost:5000/
     - [ ] Write tests for this service
         - [ ] Write instructions of how to run the tests
     - [ ] Write travis configfile for this module
++ - [ ] Create an error component to show if the client's requests fails
 
 
 <!-- - [x] Venus -->
