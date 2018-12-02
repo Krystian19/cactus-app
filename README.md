@@ -46,6 +46,7 @@ docker exec -ti cactus-app_backend_admin_1 /code/seeds.sh
 The web client should be running @ http://localhost:5000/
 
 ## Todo list
++ - [ ] (Model Change): Episode title's text and language should be part of the episode version not in a separate model.
 + - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Setup client service testing pipeline, maintainability score
     - [ ] Write tests for this service
