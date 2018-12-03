@@ -50,7 +50,7 @@ The web client should be running @ http://localhost:5000/
 + - [ ] Setup a proper lazy loading mechanich for images in the client
 + - [ ] Set a default image value for all the image related fields
 + - [ ] Find and implement a better design for the current video player component
-+ - [ ] (Model Change): Episode title's text and language should be part of the episode version not in a separate model.
++ - [x] (Model Change): Episode title's text and language should be part of the episode version not in a separate model.
 + - [ ] Set up the broadcast day/time for the Anime Seasons
 + - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Setup client service testing pipeline, maintainability score
