@@ -35,9 +35,9 @@ And start the project with:
 docker-compose up -d
 ```
 
-Run the seeders ...
+Then you run the seeders ...
 
-NOTE: Where "cactus-app_backend_admin_1" is the fullname of the running backend container, it might change in newer versions of docker, so do a "docker ps" to find out the fullname of the running backend_admin container.
+**NOTE:** Where **"cactus-app_backend_admin_1"** is the name of the backend_admin container, it might change in newer versions of docker, so do a **"docker ps"** to get the fullname of the running backend_admin container.
 ```sh
 # Run the seeders
 docker exec -ti cactus-app_backend_admin_1 /code/seeds.sh
