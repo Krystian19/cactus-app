@@ -46,6 +46,7 @@ docker exec -ti cactus-app_backend_admin_1 /code/seeds.sh
 The web client should be running @ http://localhost:5000/
 
 ## Todo list
++ - [ ] Setup a proper lazy loading mechanich for images in the client
 + - [ ] Set a default image value for all the image related fields
 + - [ ] (Model Change): Episode title's text and language should be part of the episode version not in a separate model.
 + - [ ] Set up the broadcast day/time for the Anime Seasons
