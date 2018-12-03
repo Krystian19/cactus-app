@@ -47,7 +47,6 @@ The web client should be running @ http://localhost:5000/
 
 ## Todo list
 + - [ ] Setup a proper lazy loading mechanich for images in the client
-+ - [ ] Remove all unnecessary uses of the sidebar inside the client's layout
 + - [ ] Set a default image value for all the image related fields
 + - [ ] Find and implement a better design for the current video player component
 + - [ ] (Model Change): Episode title's text and language should be part of the episode version not in a separate model.
