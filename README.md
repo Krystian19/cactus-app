@@ -48,7 +48,7 @@ The web client should be running @ http://localhost:5000/
 ## Todo list
 + - [x] Set db's default collation to universal_ci (comes in swedish by default)
 + - [ ] Setup a proper lazy loading mechanism for images in the client
-+ - [ ] Set a default image value for all the image related fields
++ - [x] Set a default image value for all the image related fields
 + - [ ] Find and implement a better design for the current video player component
 + - [x] (Model Change): Episode title's text and language should be part of the episode version not in a separate model.
 + - [ ] Set up the broadcast day/time for the Anime Seasons
