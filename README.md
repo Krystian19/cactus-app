@@ -46,7 +46,7 @@ docker exec -ti cactus-app_backend_admin_1 /code/seeds.sh
 The web client should be running @ http://localhost:5000/
 
 ## Todo list
-+ - [ ] Set db's default collation to universal_ci (comes in swedish by default)
++ - [x] Set db's default collation to universal_ci (comes in swedish by default)
 + - [ ] Setup a proper lazy loading mechanich for images in the client
 + - [ ] Set a default image value for all the image related fields
 + - [ ] Find and implement a better design for the current video player component
