@@ -11,7 +11,7 @@ Cactus app is an open source service to stream your favorite anime.
 | [![Build Status](https://travis-ci.org/Krystian19/cactus-fake-image-cdn-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-fake-image-cdn-service) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-fake-image-cdn-service/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-fake-image-cdn-service)  [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-fake-image-cdn-service/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-fake-image-cdn-service)|
 
 ## Screenshots
-![Alt text](screenshots/view1.png?raw=true "Anime Description"){:target="_blank"}
+![Alt text](screenshots/view1.png?raw=true "Anime Description")
 
 # Requirements
 ```sh
