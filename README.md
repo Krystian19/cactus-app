@@ -60,6 +60,9 @@ The web client should be running @ http://localhost:5000/
         - [ ] Write instructions of how to run the tests
     - [ ] Write travis configfile for this module
 + - [ ] Create an error component to show if the client's requests fails
++ - [ ] Fill in missing types from the Schema tests (WeekDay model not being tested)
++ - [ ] Complete missing tests of backend admin's models
++ - [ ] Complete model tests for the db module
 
 
 <!-- - [x] Venus -->
