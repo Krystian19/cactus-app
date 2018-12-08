@@ -55,6 +55,9 @@ The web client should be running @ http://localhost:5000/
 + - [x] Set up the broadcast day/time for the Anime Seasons
   + - [x] Seed Seasons with the proper day/time values
 + - [ ] Setup the client's schedule view
+  + - [ ] Create WeekDay model in the backend and backend-admin services
+  + - [ ] Include WeekDay as a Schema query method
+  + - [ ] Implement proper query request and information usage in the client's schedule view
 + - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Setup client service testing pipeline, maintainability score
     - [ ] Write tests for this service
