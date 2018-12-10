@@ -37,10 +37,10 @@ docker-compose up -d
 
 Then you run the seeders ...
 
-**NOTE:** Where **"cactus-app_backend_admin_1"** is the name of the backend_admin container, it might change in newer versions of docker, so do a **"docker ps"** to get the fullname of the running backend_admin container.
+**NOTE:** Where **"cactus_app_backend_admin"** is the name of the backend_admin container, it might change in newer versions of docker, so do a **"docker ps"** to get the fullname of the running backend_admin container.
 ```sh
 # Run the seeders
-docker exec -ti cactus-app_backend_admin_1 /code/seeds.sh
+docker exec -ti cactus_app_backend_admin /code/seeds.sh
 ```
 
 The web client should be running @ http://localhost:5000/
