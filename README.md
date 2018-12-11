@@ -56,6 +56,7 @@ The web client should be running @ http://localhost:5000/
   + - [x] Seed Seasons with the proper day/time values
 + - [ ] Move error image placeholder and missing images placeholders to the client's server
 + - [ ] Setup the client's schedule view
+  + - [ ] Implement each Season's airing time and calculate the remaining time
   + - [x] Create WeekDay model in the backend and backend-admin services
   + - [x] Include WeekDay as a Schema query method
   + - [x] Implement proper query request and information usage in the client's schedule view
