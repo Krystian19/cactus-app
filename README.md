@@ -47,6 +47,7 @@ The web client should be running @ http://localhost:5000/
 
 ## Todo list
 + - [ ] Set all the containers ubuntu version to 18.0.4 (latest one to date)
++ - [ ] Expose backend admin's debug env value in the docker-compose
 + - [x] Set db's default collation to universal_ci (comes in swedish by default)
 + - [x] Setup a proper lazy loading mechanism for images in the client
 + - [x] Work with the LazyLoading image error placeholder
