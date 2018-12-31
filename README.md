@@ -36,14 +36,12 @@ docker-compose up -d
 ```
 
 Then you run the seeders ...
-
-**NOTE:** Where **"cactus_app_backend_admin"** is the name of the backend_admin container, it might change in newer versions of docker, so do a **"docker ps"** to get the fullname of the running backend_admin container.
 ```sh
 # Run the seeders
 docker exec -ti cactus_app_backend_admin /code/seeds.sh
 ```
 
-The web client should be running @ http://localhost:5000/
+And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todo list
 + - [ ] Set all the containers ubuntu version to 18.0.4 (latest one to date)
