@@ -35,6 +35,7 @@ services:
       ENV: "development"
       DJANGO_ADMIN_USER: admin
       DJANGO_ADMIN_PASSWORD: "pass1234"
+      DEBUG: "True" # Or "False"
     healthcheck:
       # test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
       test: ["CMD",  "curl", "-I", "--fail", "http://localhost:8000/admin"]
