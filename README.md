@@ -63,10 +63,10 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [x] Include WeekDay as a Schema query method
   + - [x] Implement proper query request and information usage in the client's schedule view
 + - [ ] Add more series to the backend-admin's seeding script data
-+ - [ ] Setup client service testing pipeline, maintainability score
-    - [ ] Write tests for this service
-        - [ ] Write instructions of how to run the tests
-    - [ ] Write travis configfile for this module
++ - [x] Setup client service testing pipeline, maintainability score
+    - [x] Write tests for this service
+        - [x] Write instructions of how to run the tests
+    - [x] Write travis configfile for this module
 + - [ ] Create an error component to show if the client's requests fails
 + - [x] Fill in missing types from the Schema tests (WeekDay model not being tested)
 + - [ ] Complete missing tests of backend admin's models
