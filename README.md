@@ -44,12 +44,7 @@ docker exec -ti cactus_app_backend_admin /code/seeds.sh
 And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todo list
-+ - [x] Set all the containers ubuntu version to 18.0.4 (latest one to date)
-+ - [x] Expose backend admin's debug env value in the docker-compose
-+ - [x] Set db's default collation to universal_ci (comes in swedish by default)
-+ - [x] Setup a proper lazy loading mechanism for images in the client
-+ - [x] Work with the LazyLoading image error placeholder
-+ - [x] Set a default image value for all the image related fields
++ - [ ] The stoppedAiring field in the DB module should be a boolean not a date.
 + - [ ] Find and implement a better design for the current video player component
 + - [x] (Model Change): Episode title's text and language should be part of the episode version not in a separate model.
 + - [x] Set up the broadcast day/time for the Anime Seasons
