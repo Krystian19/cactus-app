@@ -50,6 +50,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [x] Set up the broadcast day/time for the Anime Seasons
   + - [x] Seed Seasons with the proper day/time values
 + - [ ] Move error image placeholder and missing images placeholders to the client's server
++ - [ ] Setup a default a proper default image when no poster and/or background are defined for a Season
 + - [ ] Fix the sidebar's component replication problem
 + - [ ] Implement a not found page for for requests outside of client or content that is not found
 + - [ ] Setup the client's schedule view
