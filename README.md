@@ -48,6 +48,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Find and implement a better design for the current video player component
 + - [x] (Model Change): Episode title's text and language should be part of the episode version not in a separate model.
 + - [ ] Move error image placeholder and missing images placeholders to the client's server
++ - [ ] Setup a default a proper default image when no poster and/or background are defined for a Season
 + - [ ] Fix the sidebar's component replication problem
 + - [ ] Implement a not found page for for requests outside of client or content that is not found
 + - [ ] Setup the client's schedule view
