@@ -46,16 +46,10 @@ And voilà, the web client should be running @ http://localhost:5000/
 ## Todo list
 + - [ ] The stoppedAiring field in the DB module should be a boolean not a date.
 + - [ ] Find and implement a better design for the current video player component
-+ - [x] (Model Change): Episode title's text and language should be part of the episode version not in a separate model.
 + - [ ] Move error image placeholder and missing images placeholders to the client's server
 + - [ ] Setup a default a proper default image when no poster and/or background are defined for a Season
 + - [ ] Fix the sidebar's component replication problem
 + - [ ] Implement a not found page for for requests outside of client or content that is not found
-+ - [ ] Setup the client's schedule view
-  + - [ ] Implement each Season's airing time and calculate the remaining time
-  + - [x] Create WeekDay model in the backend and backend-admin services
-  + - [x] Include WeekDay as a Schema query method
-  + - [x] Implement proper query request and information usage in the client's schedule view
 + - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Create an error component to show if the client's requests fails
 + - [ ] Complete missing tests of backend admin's models
