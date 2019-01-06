@@ -47,8 +47,6 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] The stoppedAiring field in the DB module should be a boolean not a date.
 + - [ ] Find and implement a better design for the current video player component
 + - [x] (Model Change): Episode title's text and language should be part of the episode version not in a separate model.
-+ - [x] Set up the broadcast day/time for the Anime Seasons
-  + - [x] Seed Seasons with the proper day/time values
 + - [ ] Move error image placeholder and missing images placeholders to the client's server
 + - [ ] Fix the sidebar's component replication problem
 + - [ ] Implement a not found page for for requests outside of client or content that is not found
@@ -58,12 +56,7 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [x] Include WeekDay as a Schema query method
   + - [x] Implement proper query request and information usage in the client's schedule view
 + - [ ] Add more series to the backend-admin's seeding script data
-+ - [x] Setup client service testing pipeline, maintainability score
-    - [x] Write tests for this service
-        - [x] Write instructions of how to run the tests
-    - [x] Write travis configfile for this module
 + - [ ] Create an error component to show if the client's requests fails
-+ - [x] Fill in missing types from the Schema tests (WeekDay model not being tested)
 + - [ ] Complete missing tests of backend admin's models
 + - [ ] Complete model tests for the db module
 
