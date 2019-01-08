@@ -53,6 +53,8 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Create an error component to show if the client's requests fails
 + - [ ] Setup Category filters for the search view
+  + - [ ] Implement Category filtering Component for the search view
+  + - [ ] Implement Category filtering in the findSeason and the countSeasons query methods
 + - [ ] Complete missing tests of backend admin's models
 + - [ ] Complete model tests for the db module
 
