@@ -56,6 +56,9 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Implement Category filtering Component for the search view
   + - [ ] Implement Category filtering in the findSeason and the countSeasons query methods
     + - [ ] Include the category filtering in the findSeason and the countSeasons query methods unit tests
++ - [ ] Setup multi-language support for the client
+  + - [ ] Setup English language support for the client
+  + - [ ] Setup Spanish language support for the client
 + - [ ] Complete missing tests of backend admin's models
 + - [ ] Complete model tests for the db module
 
