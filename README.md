@@ -20,7 +20,7 @@ git-lfs --version
 | [![Build Status](https://travis-ci.org/Krystian19/cactus-fake-image-cdn-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-fake-image-cdn-service) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-fake-image-cdn-service/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-fake-image-cdn-service)  [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-fake-image-cdn-service/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-fake-image-cdn-service) | [![Build Status](https://travis-ci.org/Krystian19/cactus-fake-video-cdn-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-fake-video-cdn-service) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-fake-video-cdn-service/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-fake-video-cdn-service) [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-fake-video-cdn-service/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-fake-video-cdn-service) |
 
 ## Screenshots
-![Alt text](screenshots/view1.png?raw=true "Anime Description")
+![Alt text](screenshots/view1.png?raw=true "Anime Description view")
 
 # How to Setup
 
@@ -49,6 +49,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup a default a proper default image when no poster and/or background are defined for a Season
 + - [ ] Fix the sidebar's component replication problem
 + - [ ] Implement a not found page for for requests outside of client or content that is not found
++ - [ ] Implement a failure page, that is server rendered, and covers for server-side graphql requests catastrophic errors
 + - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Create an error component to show if the client's requests fails
 + - [ ] Setup Category filters for the search view
