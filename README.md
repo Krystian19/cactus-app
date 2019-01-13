@@ -62,8 +62,5 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Complete missing tests of backend admin's models
 + - [ ] Complete model tests for the db module
 
-
-<!-- - [x] Venus -->
-
 ## License
 MIT © [Jan Guzman](https://github.com/Krystian19)
