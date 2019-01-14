@@ -1,16 +1,7 @@
 # Cactus app
 Cactus app is an open source service to stream your favorite anime.
 
-# What do you need to have installed ?
-```sh
-docker -v
-  Docker version 18.03.0-ce # Or later
-
-git-lfs --version
-  git-lfs/2.5.2 (GitHub; darwin amd64; go 1.11) # Or later
-```
-
-## Service Repostories
+## Services
 |  [Client Repo](https://github.com/Krystian19/cactus-app-client-service) | [Backend Repo](https://github.com/Krystian19/cactus-app-backend-service/tree/master) | [Admin Repo](https://github.com/Krystian19/cactus-app-backend-admin-service/tree/master) |
 |:---------------------:|:---------------------:|:---------------------:|
 | [![Build Status](https://travis-ci.org/Krystian19/cactus-app-client-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-client-service) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-app-client-service/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-app-client-service) [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-app-client-service/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-app-client-service) | [![Build Status](https://travis-ci.org/Krystian19/cactus-app-backend-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-backend-service) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-app-backend-service/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-app-backend-service) [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-app-backend-service/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-app-backend-service) | [![Build Status](https://travis-ci.org/Krystian19/cactus-app-backend-admin-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-backend-admin-service) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-app-backend-admin-service/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-app-backend-admin-service) [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-app-backend-admin-service/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-app-backend-admin-service) |
@@ -24,7 +15,16 @@ git-lfs --version
 
 # How to Setup
 
-Clone this project with all of it's modules recursively:
+## What do you need to have installed ?
+```sh
+docker -v
+  Docker version 18.03.0-ce # Or later
+
+git-lfs --version
+  git-lfs/2.5.2 (GitHub; darwin amd64; go 1.11) # Or later
+```
+
+Clone this project with all of it's modules recursively (it's a little heavy, so it'll take a bit):
 
 ```sh
 git clone --recurse-submodules git@github.com:Krystian19/cactus-app.git
