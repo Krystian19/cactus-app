@@ -47,6 +47,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Find and implement a better design for the current video player component
 + - [ ] Move error image placeholder and missing images placeholders to the client's server
 + - [ ] Setup a default a proper default image when no poster and/or background are defined for a Season
+  + - [x] Fix the placeholder issues related with the Season model poster and background
 + - [ ] Fix the sidebar's component replication problem
 + - [ ] Implement a not found page for for requests outside of client or content that is not found
 + - [ ] Implement a failure page, that is server rendered, and covers for server-side graphql requests catastrophic errors
