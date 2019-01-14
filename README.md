@@ -15,7 +15,7 @@ Cactus app is an open source service to stream your favorite anime.
 
 # How to Setup
 
-## What do you need to have installed ?
+#### You need to have these installed ...
 ```sh
 docker -v
   Docker version 18.03.0-ce # Or later
