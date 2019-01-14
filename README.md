@@ -44,6 +44,7 @@ docker exec -ti cactus_app_backend_admin /code/seeds.sh
 And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todo list
++ - [ ] Setup a way in the anime info view to connect with the next season
 + - [ ] Find and implement a better design for the current video player component
 + - [ ] Move error image placeholder and missing images placeholders to the client's server
 + - [ ] Setup a default a proper default image when no poster and/or background are defined for a Season
