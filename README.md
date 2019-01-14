@@ -35,7 +35,7 @@ And start the project with:
 docker-compose up -d
 ```
 
-Then you run the seeders ...
+Then run the seeders to have some basic data ...
 ```sh
 # Run the seeders
 docker exec -ti cactus_app_backend_admin /code/seeds.sh
