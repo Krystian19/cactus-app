@@ -41,7 +41,7 @@ Then run the seeders to have some basic data ...
 docker exec -ti cactus_app_backend_admin /code/seeds.sh
 ```
 
-And voilà, the web client should be running @ http://localhost:5000/
+And voilà, the web client should be running @ <a href=" http://localhost:5000/" target="_blank">http://localhost:5000/</a>
 
 ## Todo list
 + - [ ] Setup a way in the anime info view to connect with the next season
