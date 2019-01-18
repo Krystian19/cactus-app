@@ -64,7 +64,7 @@ And voilà, the web client should be running @ <a href=" http://localhost:5000/"
   + - [ ] Setup Spanish language support for the client
 + - [ ] Complete missing tests of backend admin's models
 + - [ ] Complete model tests for the db module
-+ - [ ] Add a catch for the sequelize sync in the db module that kills the process if the db connection fails.
++ - [x] Add a catch for the sequelize sync in the db module that kills the process if the db connection fails.
 
 ## License
 MIT © [Jan Guzman](https://github.com/Krystian19)
