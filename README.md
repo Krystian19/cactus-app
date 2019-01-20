@@ -58,8 +58,8 @@ And voilà, the web client should be running @ <a href=" http://localhost:5000/"
 + - [ ] Create a server-side error page to show if the initial ApolloClient SSR request fails
 + - [ ] Setup Category filters for the search view
   + - [ ] Implement Category filtering Component for the search view
-    + - [ ] Implement Category filtering in the findSeason and the countSeasons query methods
-      + - [ ] Include the category filtering in the findSeason and the countSeasons query methods unit tests
+    + - [x] Implement Category filtering in the findSeason and the countSeasons query methods
+      + - [x] Include the category filtering in the findSeason and the countSeasons query methods unit tests
 + - [ ] Setup multi-language support for the client
   + - [ ] Setup English language support for the client
   + - [ ] Setup Spanish language support for the client
