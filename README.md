@@ -44,10 +44,11 @@ docker exec -ti cactus_app_backend_admin /code/seeds.sh
 And voilà, the web client should be running @ <a href=" http://localhost:5000/" target="_blank">http://localhost:5000/</a>
 
 ## Todo list
-+ - [ ] Use the Sequelize's native findAndCountAll method instead of having a duplicated method for counting rows
++ - [x] Use the Sequelize's native findAndCountAll method instead of having a duplicated method for counting rows
 + - [ ] Setup a way in the anime info view to connect with the next season
 + - [ ] Find and implement a better design for the current video player component
 + - [ ] Move error image placeholder and missing images placeholders to the client's server
++ - [ ] Setup pagination for the Genre schemas and the client's Genre view
 + - [ ] Setup a default a proper default image when no poster and/or background are defined for a Season
   + - [x] Fix the placeholder issues related with the Season model poster and background
 + - [ ] Fix the sidebar's component replication problem
