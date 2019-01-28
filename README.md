@@ -15,7 +15,7 @@ Cactus app is an open source service to stream your favorite anime.
 
 # How to Setup
 
-#### You need to have these installed ...
+## IMPORTANT!!! - Make sure you have these installed, before doing anything ...
 ```sh
 docker -v
   Docker version 18.03.0-ce # Or later
@@ -41,29 +41,34 @@ Then run the seeders to have some basic data ...
 docker exec -ti cactus_app_backend_admin /code/seeds.sh
 ```
 
-And voilà, the web client should be running @ http://localhost:5000/
+And voilà, the web client should be running @ <a href=" http://localhost:5000/" target="_blank">http://localhost:5000/</a>
 
 ## Todo list
++ - [x] Fix travis badge in the client service's README
++ - [x] Use the Sequelize's native findAndCountAll method instead of having a duplicated method for counting rows
 + - [ ] Setup a way in the anime info view to connect with the next season
 + - [ ] Find and implement a better design for the current video player component
 + - [ ] Move error image placeholder and missing images placeholders to the client's server
++ - [ ] Setup pagination for the Genre schemas and the client's Genre view
 + - [ ] Setup a default a proper default image when no poster and/or background are defined for a Season
   + - [x] Fix the placeholder issues related with the Season model poster and background
 + - [ ] Fix the sidebar's component replication problem
+  + - [ ] Use the newest methods in react-router v4 to solve this issue
 + - [ ] Implement a not found page for for requests outside of client or content that is not found
 + - [ ] Implement a failure page, that is server rendered, and covers for server-side graphql requests catastrophic errors
 + - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Create an error component to show if the client's requests fails
++ - [ ] Create a server-side error page to show if the initial ApolloClient SSR request fails
 + - [ ] Setup Category filters for the search view
   + - [ ] Implement Category filtering Component for the search view
-  + - [ ] Implement Category filtering in the findSeason and the countSeasons query methods
-    + - [ ] Include the category filtering in the findSeason and the countSeasons query methods unit tests
+    + - [x] Implement Category filtering in the findSeason and the countSeasons query methods
+      + - [x] Include the category filtering in the findSeason and the countSeasons query methods unit tests
 + - [ ] Setup multi-language support for the client
   + - [ ] Setup English language support for the client
   + - [ ] Setup Spanish language support for the client
 + - [ ] Complete missing tests of backend admin's models
 + - [ ] Complete model tests for the db module
-+ - [ ] Add a catch for the sequelize sync in the db module that kills the process if the db connection fails.
++ - [x] Add a catch for the sequelize sync in the db module that kills the process if the db connection fails.
 
 ## License
 MIT © [Jan Guzman](https://github.com/Krystian19)
