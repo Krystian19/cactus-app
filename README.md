@@ -50,8 +50,6 @@ And voilà, the web client should be running @ <a href=" http://localhost:5000/"
 + - [ ] Setup pagination for the Genre schemas and the client's Genre view
 + - [ ] Setup a default a proper default image when no poster and/or background are defined for a Season
   + - [x] Fix the placeholder issues related with the Season model poster and background
-+ - [x] Fix the sidebar's component replication problem
-  + - [x] Use the newest methods in react-router v4 to solve this issue
 + - [ ] Implement a not found page for for requests outside of client or content that is not found
 + - [ ] Implement a failure page, that is server rendered, and covers for server-side graphql requests catastrophic errors
 + - [ ] Add more series to the backend-admin's seeding script data
