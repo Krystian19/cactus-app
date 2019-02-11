@@ -44,6 +44,7 @@ docker exec -ti cactus_app_backend_admin /code/seeds.sh
 And voilà, the web client should be running @ <a href=" http://localhost:5000/" target="_blank">http://localhost:5000/</a>
 
 ## Todo list
++ - [ ] Convert the client's service codebase into typescript
 + - [ ] Setup a way in the anime info view to connect with the next season
 + - [ ] Find and implement a better design for the current video player component
 + - [ ] Move error image placeholder and missing images placeholders to the client's server
@@ -62,6 +63,7 @@ And voilà, the web client should be running @ <a href=" http://localhost:5000/"
   + - [ ] Setup Spanish language support for the client
 + - [ ] Complete missing tests of backend admin's models
 + - [ ] Complete model tests for the db module
++ - [ ] Study how to convert the Frontend app in a Desktop native app
 
 ## License
 MIT © [Jan Guzman](https://github.com/Krystian19)
