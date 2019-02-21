@@ -51,7 +51,7 @@ And voilà, the web client should be running @ <a href=" http://localhost:5000/"
 + - [ ] Setup a default a proper default image when no poster and/or background are defined for a Season
   + - [x] Fix the placeholder issues related with the Season model poster and background
 + - [ ] Implement a not found page for for requests outside of client or content that is not found
-+ - [ ] Implement a failure page, that is server-rendered, and covers for server-side graphql requests catastrophic errors
++ - [x] Implement a failure page, that is server-rendered, and covers for server-side graphql requests catastrophic errors
 + - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Create an error component to show if the client's requests fails
 + - [ ] Create a server-side error page to show if the initial ApolloClient SSR request fails
