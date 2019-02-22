@@ -48,13 +48,11 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Find and implement a better design for the current video player component
 + - [ ] Move error image placeholder and missing images placeholders to the client's server
 + - [ ] Setup pagination for the Genre schemas and the client's Genre view
-+ - [x] Setup a default a proper default image when no poster and/or background are defined for a Season
-  + - [x] Fix the placeholder issues related with the Season model poster and background
++ - [ ] Setup name search for the Genre schemas and the client's Genre view
 + - [ ] Implement a not found page for for requests outside of client or content that is not found
-+ - [x] Implement a failure page, that is server-rendered, and covers for server-side graphql requests catastrophic errors
 + - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Create an error component to show if the client's requests fails
-+ - [ ] Create a server-side error page to show if the initial ApolloClient SSR request fails
++ - [x] Create a server-side error page to show if the initial ApolloClient SSR request fails
 + - [ ] Setup Category filters for the search view
   + - [ ] Implement Category filtering Component for the search view
 + - [ ] Setup multi-language support for the client
