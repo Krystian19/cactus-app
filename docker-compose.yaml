@@ -64,6 +64,10 @@ services:
       DB_USERNAME: "root"
       DB_PASSWORD: "secret"
       DB_FORCE_RESTART: "false"
+
+      # URL of the service that is running a backend instance
+      BACKEND_SERVICE_URL: "http://backend_admin:8000/"
+
     ports: ['3000:3000']
     links:
       - mysql
