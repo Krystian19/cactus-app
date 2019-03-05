@@ -18,8 +18,8 @@ services:
     container_name: cactus_phpmyadmin
     image: phpmyadmin/phpmyadmin:latest
     environment:
-      MYSQL_ROOT_PASSWORD: "1234"
-      PMA_HOST: "mysql"
+      MYSQL_ROOT_PASSWORD: "secret"
+      PMA_HOST: "cactus.mysql"
       PMA_PORT: "3306"
     ports: ['8080:80']
     links:
