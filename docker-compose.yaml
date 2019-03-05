@@ -1,8 +1,8 @@
 version: '2.3'
 
 services:
-  mysql:
-    container_name: cactus_app_mysql
+  cactus.mysql:
+    container_name: cactus_mysql
     image: mysql:5.7.24
     command: --character-set-server=utf8 --collation-server=utf8_general_ci
     environment:
@@ -14,8 +14,8 @@ services:
       retries: 10
     ports: ['3306:3306']
 
-  phpmyadmin:
-    container_name: cactus_app_phpmyadmin
+  cactus.phpmyadmin:
+    container_name: cactus_phpmyadmin
     image: phpmyadmin/phpmyadmin:latest
     environment:
       MYSQL_ROOT_PASSWORD: "1234"
@@ -23,10 +23,10 @@ services:
       PMA_PORT: "3306"
     ports: ['8080:80']
     links:
-      - mysql
+      - cactus.mysql
 
-  backendadmin:
-    container_name: cactus_app_backend_admin
+  cactus.backend.admin:
+    container_name: cactus_backend_admin
     build:
       ./backend_admin
     volumes:
@@ -43,15 +43,15 @@ services:
       retries: 10
     ports: ['6500:8000']
     links:
-      - mysql
+      - cactus.mysql
     depends_on:
-      mysql:
+      cactus.mysql:
         condition: service_started
-      mysql:
+      cactus.mysql:
         condition: service_healthy
 
-  backend:
-    container_name: cactus_app_backend
+  cactus.backend:
+    container_name: cactus_backend
     build:
       ./backend
     volumes:
@@ -66,24 +66,24 @@ services:
       DB_FORCE_RESTART: "false"
 
       # URL of the service that is running a backend instance
-      BACKEND_SERVICE_URL: "http://backendadmin:8000/"
+      BACKEND_SERVICE_URL: "http://cactus.backend.admin:8000/"
 
     ports: ['3000:3000']
     links:
-      - mysql
-      - backendadmin
+      - cactus.mysql
+      - cactus.backend.admin
     depends_on:
-      mysql:
+      cactus.mysql:
         condition: service_started
-      mysql:
+      cactus.mysql:
         condition: service_healthy
-      backendadmin:
+      cactus.backend.admin:
         condition: service_started
-      backendadmin:
+      cactus.backend.admin:
         condition: service_healthy
   
-  client:
-    container_name: cactus_app_client
+  cactus.client:
+    container_name: cactus_client
     build:
       ./client
     volumes:
@@ -99,24 +99,24 @@ services:
       # URL of the local video cdn service
       VIDEO_CDN_SERVICE_URL: "http://video_cdn:3000/"
     links:
-      - backend
-      - img_cdn
-      - video_cdn
+      - cactus.backend
+      - cactus.img_cdn
+      - cactus.video_cdn
     depends_on:
-      - backend
-      - img_cdn
-      - video_cdn
+      - cactus.backend
+      - cactus.img_cdn
+      - cactus.video_cdn
   
-  img_cdn: # Local image CDN service
-    container_name: cactus_app_img_cdn
+  cactus.img_cdn: # Local image CDN service
+    container_name: cactus_img_cdn
     build:
       ./image-cdn
     volumes:
       - ./image-cdn/src/img/:/app/src/img/
     ports: ['8000:3000']
   
-  video_cdn: # Local video CDN service
-    container_name: cactus_app_video_cdn
+  cactus.video_cdn: # Local video CDN service
+    container_name: cactus_video_cdn
     build:
       ./video-cdn
     volumes:
