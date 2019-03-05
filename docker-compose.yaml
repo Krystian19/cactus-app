@@ -25,7 +25,7 @@ services:
     links:
       - mysql
 
-  backend_admin:
+  backendadmin:
     container_name: cactus_app_backend_admin
     build:
       ./backend_admin
@@ -66,20 +66,20 @@ services:
       DB_FORCE_RESTART: "false"
 
       # URL of the service that is running a backend instance
-      BACKEND_SERVICE_URL: "http://backend_admin:8000/"
+      BACKEND_SERVICE_URL: "http://backendadmin:8000/"
 
     ports: ['3000:3000']
     links:
       - mysql
-      - backend_admin
+      - backendadmin
     depends_on:
       mysql:
         condition: service_started
       mysql:
         condition: service_healthy
-      backend_admin:
+      backendadmin:
         condition: service_started
-      backend_admin:
+      backendadmin:
         condition: service_healthy
   
   client:
