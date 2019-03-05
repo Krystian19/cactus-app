@@ -59,7 +59,7 @@ services:
     environment:
       ENV: "development"
       PORT: "3000"
-      DB_HOST: "mysql"
+      DB_HOST: "cactus.mysql"
       DB_NAME: "cactus_app"
       DB_USERNAME: "root"
       DB_PASSWORD: "secret"
