@@ -43,7 +43,7 @@ docker-compose up -d
 Then run the seeders to have some basic data ...
 ```sh
 # Run the seeders
-docker exec -ti cactus_app_backend_admin /code/seeds.sh
+docker exec -ti cactus_backend_admin /code/seeds.sh
 ```
 
 And voilà, the web client should be running @ http://localhost:5000/
