@@ -49,7 +49,7 @@ docker exec -ti cactus_backend_admin /code/seeds.sh
 And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todo list
-+ - [ ] Release dates in Anime thumbnails should show the realease year accurately
++ - [x] Release dates in Anime thumbnails should show the realease year accurately
 + - [ ] Setup a way in the anime info view to connect with the next season
 + - [ ] Find and implement a better design for the current video player component
 + - [ ] Setup pagination for the Genre schemas and the client's Genre view
