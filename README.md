@@ -53,6 +53,7 @@ docker exec -ti cactus_backend_admin /code/seeds.sh
 And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todo list
++ - [ ] Setup TSlint for the client project
 + - [ ] Setup Genre filtering in the client's search view
   + - [ ] Setup Genre filtering component
     + - [ ] Setup markup for the filtering component
@@ -61,9 +62,10 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Find and implement a better design for the current video player component
 + - [ ] Setup pagination for the Genre schemas and the client's Genre view
 + - [ ] Setup name search for the Genre schemas and the client's Genre view
-+ - [ ] Implement a not found page for for requests outside of client or content that is not found
-+ - [ ] Add more series to the backend-admin's seeding script data
++ - [ ] Implement a not found page for content that is not found
 + - [ ] Create an error component to show if the client's requests fails
+  + - [ ] Create a method of handling request failures that can be used universally between components.
++ - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Setup Category filters for the search view
   + - [ ] Implement Category filtering Component for the search view
 + - [ ] Setup multi-language support for the client
