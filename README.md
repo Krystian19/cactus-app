@@ -54,6 +54,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todo list
 + - [ ] Setup TSlint for the client project
+  + - [ ] Find a ts style guide to follow follow for the client project
 + - [ ] Setup Genre filtering in the client's search view
   + - [ ] Setup Genre filtering component
     + - [ ] Setup markup for the filtering component
