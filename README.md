@@ -57,6 +57,7 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Find a ts style guide to follow follow for the client project
 + - [ ] Setup Genre filtering in the client's search view
   + - [ ] Setup Genre filtering component
+    + - [ ] Finish concept for the component
     + - [ ] Setup markup for the filtering component
     + - [ ] Setting up genre filtering through the URL
 + - [ ] Setup a way in the anime info view to connect with the next season
