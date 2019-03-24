@@ -70,8 +70,6 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Create an error component to show if the client's requests fails
   + - [ ] Create a method of handling request failures that can be used universally between components.
 + - [ ] Add more series to the backend-admin's seeding script data
-+ - [ ] Setup Category filters for the search view
-  + - [ ] Implement Category filtering Component for the search view
 + - [ ] Setup multi-language support for the client
   + - [ ] Setup English language support for the client
   + - [ ] Setup Spanish language support for the client
