@@ -67,6 +67,7 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Setup pagination for the client's Genre view list
 + - [ ] Setup name search for the Genre schemas and the client's Genre view
 + - [ ] Implement a not found page for content that is not found
+  + - [ ] Setup component to be used in such cases
 + - [ ] Create an error component to show if the client's requests fails
   + - [ ] Create a method of handling request failures that can be used universally between components.
 + - [ ] Add more series to the backend-admin's seeding script data
