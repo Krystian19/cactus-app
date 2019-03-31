@@ -54,6 +54,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todo list
 + - [ ] Work in the subtitles superposition in the video player
++ - [ ] Implement HLS streaming for the video player view
 + - [ ] Setup TSlint for the client project
   + - [ ] Find a ts style guide to follow follow for the client project
 + - [ ] Setup Genre filtering in the client's search view
