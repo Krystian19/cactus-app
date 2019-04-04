@@ -76,8 +76,6 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Create a method of handling request failures that can be used universally between components.
 + - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Setup multi-language support for the client
-  + - [ ] Setup English language support for the client
-  + - [ ] Setup Spanish language support for the client
 + - [ ] Complete missing tests of backend admin's models
 + - [ ] Complete model tests for the db module
 + - [ ] Study how to convert the Frontend app in a Desktop native app
