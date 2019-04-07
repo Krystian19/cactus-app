@@ -53,6 +53,7 @@ docker exec -ti cactus_backend_admin /code/seeds.sh
 And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todo list
++ - [ ] Replace the backend service with a Prisma.js service instance
 + - [ ] Work in the subtitles superposition in the video player
   + - [ ] Find a way of converting .ass files to .vtt
     + - [ ] Findout wether to do that conversion by hand or make it automated
