@@ -69,8 +69,6 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Implement the better design for the video player component
 + - [ ] Setup pagination for the Genre schemas and the client's Genre view
   + - [ ] Setup pagination for the Genre schema
-  + - [ ] Setup pagination for the client's Genre view list
-+ - [ ] Setup name search for the Genre schemas and the client's Genre view
 + - [ ] Implement a not found page for content that is not found
   + - [ ] Setup component to be used in such cases
 + - [ ] Create an error component to show if the client's requests fails
