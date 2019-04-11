@@ -61,9 +61,10 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Find a ts style guide to follow follow for the client project
 + - [ ] Setup Genre filtering in the client's search view
   + - [ ] Setup Genre filtering component
-    + - [ ] Setup pagination for the Genre schema resolver
-    + - [ ] Finish concept for the component
-    + - [ ] Setup markup for the filtering component
+    + - [x] Setup pagination for the Genre schema resolver
+    + - [x] Setup title filtering for the Genre schema resolver
+    + - [x] Finish concept for the component
+    + - [x] Setup markup for the filtering component
     + - [ ] Setting up genre filtering through the a URL param or state
 + - [ ] Setup a way in the anime info view to connect with the next season
 + - [x] Find a better design for the video player
