@@ -56,6 +56,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Work in the subtitles superposition in the video player
   + - [ ] Find a way of converting .ass files to .vtt
     + - [ ] Findout wether to do that conversion by hand or make it automated
++ - [ ] Study how generate captions based on a raw video file
 + - [ ] Implement HLS streaming for the video player view
 + - [ ] Setup TSlint for the client project
   + - [ ] Find a ts style guide to follow follow for the client project
