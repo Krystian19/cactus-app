@@ -20,13 +20,13 @@ Cactus app is an open source service to stream your favorite anime.
 
 # Requirements
 
-Check that you have docker installed
++ **Do you have Docker installed ?**
 ```sh
 docker -v
   Docker version 18.03.0-ce # Or later
 ```
 
-Check that you have git-lfs installed
++ **Do you have git-lfs installed ?**
 ```sh
 git-lfs --version
   git-lfs/2.5.2 (GitHub; darwin amd64; go 1.11) # Or later
