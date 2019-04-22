@@ -68,6 +68,7 @@ And voilà, the web client should be running @ http://localhost:5000/
     + - [x] Setup markup for the filtering component
     + - [ ] Setting up genre filtering through the a URL param or state
 + - [ ] Setup a way in the anime info view to connect with the next season
++ - [ ] Find a practical way of generating captions for raw videos
 + - [x] Find a better design for the video player
   + - [ ] Implement the better design for the video player component
 + - [ ] Implement a not found page for content that is not found
