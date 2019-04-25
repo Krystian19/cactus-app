@@ -60,8 +60,8 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Implement HLS streaming for the video player view
 + - [ ] Setup TSlint for the client project
   + - [ ] Find a ts style guide to follow follow for the client project
-+ - [ ] Setup Genre filtering in the client's search view
-  + - [ ] Setup Genre filtering component
++ - [x] Setup Genre filtering in the client's search view
+  + - [x] Setup Genre filtering component
     + - [x] Setup pagination for the Genre schema resolver
     + - [x] Setup title filtering for the Genre schema resolver
     + - [x] Finish concept for the component
