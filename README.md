@@ -16,7 +16,7 @@ Cactus app is an open source service to stream your favorite anime.
 | [![Build Status](https://travis-ci.org/Krystian19/cactus-app-schema-module.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-schema-module) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-app-schema-module/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-app-schema-module) [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-app-schema-module/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-app-schema-module)      | [![Build Status](https://travis-ci.org/Krystian19/cactus-app-db-module.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-db-module) [![Code Climate](https://codeclimate.com/github/Krystian19/cactus-app-db-module/badges/gpa.svg)](https://codeclimate.com/github/Krystian19/cactus-app-db-module) [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-app-db-module/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-app-db-module)
 
 ## Screenshots
-![Alt text](screenshots/view1.png?raw=true "Anime Description view")
+![Alt text](screenshots/capture1.png?raw=true "Anime Description view")
 
 # Requirements
 
