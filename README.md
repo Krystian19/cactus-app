@@ -58,6 +58,7 @@ And voilà, the web client should be running @ http://localhost:5000/
     + - [ ] Findout wether to do that conversion by hand or make it automated
 + - [ ] Study how generate captions based on a raw video file
 + - [ ] Implement HLS streaming for the video player view
++ - [ ] Define a proper pipeline that edits videos programmatically
 + - [ ] Setup TSlint for the client project
   + - [ ] Find a ts style guide to follow follow for the client project
 + - [x] Setup Genre filtering in the client's search view
