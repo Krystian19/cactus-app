@@ -53,8 +53,6 @@ docker exec -ti cactus_backend_admin /code/seeds.sh
 And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todo list
-+ - [ ] Work in the subtitles superposition in the video player
-+ - [ ] Study how generate captions based on a raw video file
 + - [ ] Implement HLS streaming for the video player view
 + - [ ] Define a proper pipeline that edits videos programmatically
   + - [ ] Develop cli to interact with video editing pipeline
