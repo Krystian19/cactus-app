@@ -54,6 +54,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todo list
 + - [ ] Implement HLS streaming for the video player view
+  + - [ ] Setudy how to implement HLS properly
 + - [ ] Define a proper pipeline that edits videos programmatically
   + - [ ] Develop cli to interact with video editing pipeline
 + - [ ] Setup TSlint for the client project
