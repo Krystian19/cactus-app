@@ -57,7 +57,8 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Study how to implement HLS properly
   + - [ ] Implement a proper local HLS server for development
 + - [ ] Define a proper pipeline that edits videos programmatically
-  + - [ ] Develop cli to interact with video editing pipeline
+  + - [x] Develop cli to interact with video editing pipeline
+  + - [ ] Apply steps of the process programmatically
 + - [ ] Setup TSlint for the client project
   + - [ ] Find a ts style guide to follow follow for the client project
 + - [x] Setup Genre filtering in the client's search view
