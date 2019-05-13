@@ -55,6 +55,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 ## Roadmap
 + - [ ] Implement HLS streaming for the video player view
   + - [ ] Study how to implement HLS properly
+  + - [ ] Implment a proper HLS Video player
   + - [ ] Implement a proper local HLS server for development
 + - [ ] Define a proper pipeline that edits videos programmatically
   + - [x] Develop cli to interact with video editing pipeline
