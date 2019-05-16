@@ -97,7 +97,7 @@ services:
       IMG_CDN_SERVICE_URL: "http://cactus.img_cdn:3000/"
 
       # URL of the local video cdn service
-      VIDEO_CDN_SERVICE_URL: "http://cactus.video_cdn:3000/"
+      VIDEO_CDN_SERVICE_URL: "http://cactus.video_cdn:80/live/"
     links:
       - cactus.backend
       - cactus.img_cdn
@@ -120,5 +120,5 @@ services:
     build:
       ./video-cdn
     volumes:
-      - ./video-cdn/src/videos/:/app/src/videos/
-    ports: ['9000:3000']
+      - ./video-cdn/videos/:/var/www/hls/live
+    ports: ['9000:80', '1935:1935']
