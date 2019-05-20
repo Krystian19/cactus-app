@@ -53,15 +53,15 @@ docker exec -ti cactus_backend_admin /code/seeds.sh
 And voilà, the web client should be running @ http://localhost:5000/
 
 ## Roadmap
-+ - [ ] Implement HLS streaming for the video player view
-  + - [ ] Study how to implement HLS properly
-  + - [ ] Implment a proper HLS Video player
-  + - [ ] Implement a proper local HLS server for development
-+ - [ ] Define a proper pipeline that edits videos programmatically
++ - [x] Implement HLS streaming for the video player view
+  + - [x] Study how to implement HLS properly
+  + - [x] Implment a proper HLS Video player
+  + - [x] Implement a proper local HLS server for development
++ - [x] Define a proper pipeline that edits videos programmatically
   + - [x] Develop cli to interact with video editing pipeline
-  + - [ ] Apply steps of the process programmatically
-+ - [ ] Setup TSlint for the client project
-  + - [ ] Find a ts style guide to follow follow for the client project
+  + - [x] Apply steps of the process programmatically
++ - [x] Setup TSlint for the client project
+  + - [x] Find a ts style guide to follow follow for the client project
 + - [x] Setup Genre filtering in the client's search view
   + - [x] Setup Genre filtering component
     + - [x] Setup pagination for the Genre schema resolver
@@ -70,7 +70,7 @@ And voilà, the web client should be running @ http://localhost:5000/
     + - [x] Setup markup for the filtering component
     + - [ ] Setting up genre filtering through the a URL param or state
 + - [ ] Setup a way in the anime info view to connect with the next season
-+ - [ ] Implement a better design for the video player component
++ - [x] Implement a better design for the video player component
   + - [x] Find a better design for the video player
 + - [ ] Implement a not found page for content that is not found
   + - [ ] Setup component to be used in such cases
