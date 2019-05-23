@@ -10,7 +10,7 @@ services:
       MYSQL_DATABASE: "cactus_app"
     healthcheck:
       test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
-      timeout: 20s
+      timeout: 6s
       retries: 10
     ports: ['3306:3306']
 
@@ -39,7 +39,7 @@ services:
     healthcheck:
       # test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
       test: ["CMD",  "curl", "-I", "--fail", "http://localhost:8000/admin"]
-      timeout: 20s
+      timeout: 6s
       retries: 10
     ports: ['6500:8000']
     links:
@@ -94,7 +94,7 @@ services:
       BACKEND_SERVICE_URL: "http://cactus.backend:3000/"
 
       # URL of the local image cdn service
-      IMG_CDN_SERVICE_URL: "http://cactus.img_cdn:3000/"
+      IMG_CDN_SERVICE_URL: "http://cactus.img_cdn:80/"
 
       # URL of the local video cdn service
       VIDEO_CDN_SERVICE_URL: "http://cactus.video_cdn:80/live/"
@@ -112,8 +112,8 @@ services:
     build:
       ./image-cdn
     volumes:
-      - ./image-cdn/src/img/:/app/src/img/
-    ports: ['8000:3000']
+      - ./image-cdn/images:/var/www
+    ports: ['8000:80']
   
   cactus.video_cdn: # Local video CDN service
     container_name: cactus_video_cdn
