@@ -69,6 +69,9 @@ And voilà, the web client should be running @ http://localhost:5000/
     + - [x] Finish concept for the component
     + - [x] Setup markup for the filtering component
     + - [ ] Setting up genre filtering through the a URL param or state
++ - [ ] Setup logging service
+  + - [ ] Setup logging service seq
+  + - [ ] Setup logging code module to communicate with the logging service
 + - [ ] Setup a way in the anime info view to connect with the next season
 + - [ ] Implement a not found page for content that is not found
   + - [ ] Setup component to be used in such cases
