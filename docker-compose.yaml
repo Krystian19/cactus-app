@@ -122,3 +122,12 @@ services:
     volumes:
       - ./video-cdn/videos/:/var/www/hls/live
     ports: ['9000:80', '1935:1935']
+  
+  cactus.logger: # Local video CDN service
+    container_name: cactus_logger
+    image: datalust/seq:5
+    # volumes:
+    #   - ./video-cdn/videos/:/var/www/hls/live
+    environment:
+      ACCEPT_EULA: "Y"
+    ports: ['4040:80', '5341:5341']
