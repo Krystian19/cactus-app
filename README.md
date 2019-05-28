@@ -11,9 +11,13 @@ Cactus app is an open source service to stream your favorite anime.
 | [![Build Status](https://travis-ci.org/Krystian19/cactus-fake-image-cdn-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-fake-image-cdn-service) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f532765d7ee248499c7a3ef4ff1f474c)](https://www.codacy.com/app/janfrancisco19/cactus-fake-image-cdn-service?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Krystian19/cactus-fake-image-cdn-service&amp;utm_campaign=Badge_Grade)  [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-fake-image-cdn-service/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-fake-image-cdn-service) | [![Build Status](https://travis-ci.org/Krystian19/cactus-fake-video-cdn-service.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-fake-video-cdn-service) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/65bb1660e35a4cc8ad38b0e8ad425c8f)](https://www.codacy.com/app/janfrancisco19/cactus-fake-video-cdn-service?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Krystian19/cactus-fake-video-cdn-service&amp;utm_campaign=Badge_Grade) [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-fake-video-cdn-service/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-fake-video-cdn-service) |
 
 ## Internal Tools & Libraries
-|  [GraphQL Schema Module](https://github.com/Krystian19/cactus-app-schema-module/tree/master) | [JS DB module](https://github.com/Krystian19/cactus-app-db-module/tree/master)|
-|:---------------------:|:---------------------:|
-| [![Build Status](https://travis-ci.org/Krystian19/cactus-app-schema-module.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-schema-module) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e73cfab590104795ac1b2a7b39eb8136)](https://www.codacy.com/app/janfrancisco19/cactus-app-schema-module?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Krystian19/cactus-app-schema-module&amp;utm_campaign=Badge_Grade) [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-app-schema-module/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-app-schema-module)      | [![Build Status](https://travis-ci.org/Krystian19/cactus-app-db-module.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-db-module) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5fbaf1e4fe25483fa34819f10c628ffb)](https://www.codacy.com/app/janfrancisco19/cactus-app-db-module?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Krystian19/cactus-app-db-module&amp;utm_campaign=Badge_Grade) [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-app-db-module/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-app-db-module)
+|  [GraphQL Schema Module](https://github.com/Krystian19/cactus-app-schema-module/tree/master) | [JS DB module](https://github.com/Krystian19/cactus-app-db-module/tree/master) | [JS Logger module](https://github.com/Krystian19/cactus-app-js-logger-module)
+|:---------------------:|:---------------------:|:---------------------:|
+| [![Build Status](https://travis-ci.org/Krystian19/cactus-app-schema-module.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-schema-module) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e73cfab590104795ac1b2a7b39eb8136)](https://www.codacy.com/app/janfrancisco19/cactus-app-schema-module?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Krystian19/cactus-app-schema-module&amp;utm_campaign=Badge_Grade) [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-app-schema-module/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-app-schema-module)      | [![Build Status](https://travis-ci.org/Krystian19/cactus-app-db-module.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-db-module) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5fbaf1e4fe25483fa34819f10c628ffb)](https://www.codacy.com/app/janfrancisco19/cactus-app-db-module?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Krystian19/cactus-app-db-module&amp;utm_campaign=Badge_Grade) [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-app-db-module/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-app-db-module)      | [![Build Status](https://travis-ci.org/Krystian19/cactus-app-js-logger-module.svg?branch=master)](https://travis-ci.org/Krystian19/cactus-app-js-logger-module) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a630bd46e14a42cba04dde7f7147e039)](https://www.codacy.com/app/janfrancisco19/cactus-app-js-logger-module?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Krystian19/cactus-app-js-logger-module&amp;utm_campaign=Badge_Grade) [![Test Coverage](https://codecov.io/gh/Krystian19/cactus-app-js-logger-module/branch/master/graph/badge.svg)](https://codecov.io/gh/Krystian19/cactus-app-js-logger-module)
+
+|  [Video editing tool](https://github.com/Krystian19/cactus-app-video-editing-tool)
+|:---------------------:|
+| [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ae6331fb07014972808b53125a820964)](https://www.codacy.com/app/janfrancisco19/cactus-app-video-editing-tool?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Krystian19/cactus-app-video-editing-tool&amp;utm_campaign=Badge_Grade)
 
 ## Screenshots
 ![Alt text](screenshots/capture1.png?raw=true "Anime Description view")
@@ -52,7 +56,7 @@ docker exec -ti cactus_backend_admin /code/seeds.sh
 
 And voilà, the web client should be running @ http://localhost:5000/
 
-## Roadmap
+## Todos
 + - [x] Implement HLS streaming for the video player view
   + - [x] Study how to implement HLS properly
   + - [x] Implment a proper HLS Video player
@@ -69,9 +73,9 @@ And voilà, the web client should be running @ http://localhost:5000/
     + - [x] Finish concept for the component
     + - [x] Setup markup for the filtering component
     + - [ ] Setting up genre filtering through the a URL param or state
-+ - [ ] Setup logging service
-  + - [ ] Setup logging service seq
-  + - [ ] Setup logging code module to communicate with the logging service
++ - [x] Setup logging service
+  + - [x] Setup logging service seq
+  + - [x] Setup logging code module to communicate with the logging service
 + - [ ] Setup a way in the anime info view to connect with the next season
 + - [ ] Implement a not found page for content that is not found
   + - [ ] Setup component to be used in such cases
