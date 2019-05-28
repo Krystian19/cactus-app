@@ -90,6 +90,12 @@ services:
       - ./client:/app
     ports: ['5000:3000']
     environment:
+      # Name of this service
+      SERVICE_NAME: "cactus_client"
+
+      # Logger service URL
+      LOGGER_SERVICE_HOST: "http://cactus.logger:5341/"
+
       # URL of the service that is running a backend instance
       BACKEND_SERVICE_URL: "http://cactus.backend:3000/"
 
@@ -102,10 +108,12 @@ services:
       - cactus.backend
       - cactus.img_cdn
       - cactus.video_cdn
+      - cactus.logger
     depends_on:
       - cactus.backend
       - cactus.img_cdn
       - cactus.video_cdn
+      - cactus.logger
   
   cactus.img_cdn: # Local image CDN service
     container_name: cactus_img_cdn
