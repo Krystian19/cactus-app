@@ -57,6 +57,12 @@ docker exec -ti cactus_backend_admin /code/seeds.sh
 And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todos
++ - [ ] Setup multi-language support for the client
+  + - [ ] Setup language based anime filtering
++ - [ ] Setup views tracking of the anime video view
++ - [ ] Setup the django admin to leverage massive anime content amounts
++ - [ ] Setup a way in the anime info view to connect with the next season
++ - [ ] Setup db support for movies and ovas
 + - [x] Implement HLS streaming for the video player view
   + - [x] Study how to implement HLS properly
   + - [x] Implment a proper HLS Video player
@@ -76,11 +82,6 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [x] Setup logging service
   + - [x] Setup logging service seq
   + - [x] Setup logging code module to communicate with the logging service
-+ - [ ] Setup multi-language support for the client
-  + - [ ] Setup language based anime filtering
-+ - [ ] Setup views tracking of the anime video view
-+ - [ ] Setup the django admin to leverage massive anime content amounts
-+ - [ ] Setup a way in the anime info view to connect with the next season
 + - [ ] Implement a not found page for content that is not found
   + - [ ] Setup component to be used in such cases
 + - [ ] Create an error component to show if the client's requests fails
