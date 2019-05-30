@@ -80,7 +80,7 @@ And voilà, the web client should be running @ http://localhost:5000/
     + - [x] Setup title filtering for the Genre schema resolver
     + - [x] Finish concept for the component
     + - [x] Setup markup for the filtering component
-    + - [ ] Setting up genre filtering through the a URL param or state
+    + - [x] Setting up genre filtering through the a URL param or state
 + - [x] Setup logging service
   + - [x] Setup logging service seq
   + - [x] Setup logging code module to communicate with the logging service
