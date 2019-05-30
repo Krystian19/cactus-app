@@ -1,5 +1,7 @@
-# Cactus app
-Cactus app is an open source service to stream your favorite anime.
+# Cactus app 
+![GitHub last commit](https://img.shields.io/github/last-commit/Krystian19/cactus-app.svg?style=popout-square) ![GitHub](https://img.shields.io/github/license/Krystian/cactus-app.svg?style=popout-square)
+
+### Cactus app is an open source service to stream your favorite anime.
 
 ## Services
 |  [Client Repo](https://github.com/Krystian19/cactus-app-client-service) | [Backend Repo](https://github.com/Krystian19/cactus-app-backend-service/tree/master) | [Admin Repo](https://github.com/Krystian19/cactus-app-backend-admin-service/tree/master) |
