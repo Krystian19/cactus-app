@@ -58,7 +58,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todos
 + - [ ] Setup multi-language support for the client
-  + - [ ] Setup language based anime filtering
+  + - [ ] Setup a way of signaling that an episode is only available in a certain language
 + - [ ] Setup views tracking of the anime video view
 + - [ ] Setup the django admin to leverage massive anime content amounts
 + - [ ] Setup a way in the anime info view to connect with the next season
