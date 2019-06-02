@@ -81,9 +81,6 @@ And voilà, the web client should be running @ http://localhost:5000/
     + - [x] Finish concept for the component
     + - [x] Setup markup for the filtering component
     + - [x] Setting up genre filtering through the a URL param or state
-+ - [x] Setup logging service
-  + - [x] Setup logging service seq
-  + - [x] Setup logging code module to communicate with the logging service
 + - [ ] Implement a not found page for content that is not found
   + - [ ] Setup component to be used in such cases
 + - [ ] Create an error component to show if the client's requests fails
