@@ -74,13 +74,6 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [x] Apply steps of the process programmatically
 + - [x] Setup TSlint for the client project
   + - [x] Find a ts style guide to follow follow for the client project
-+ - [x] Setup Genre filtering in the client's search view
-  + - [x] Setup Genre filtering component
-    + - [x] Setup pagination for the Genre schema resolver
-    + - [x] Setup title filtering for the Genre schema resolver
-    + - [x] Finish concept for the component
-    + - [x] Setup markup for the filtering component
-    + - [x] Setting up genre filtering through the a URL param or state
 + - [ ] Implement a not found page for content that is not found
   + - [ ] Setup component to be used in such cases
 + - [ ] Create an error component to show if the client's requests fails
