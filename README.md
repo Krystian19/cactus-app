@@ -65,6 +65,9 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup the django admin to leverage massive anime content amounts
 + - [ ] Setup a way in the anime info view to connect with the next season
 + - [ ] Setup db support for movies and ovas
++ - [ ] Setup schedule view support for episodes that are out but not translated
++ - [ ] Setup schedule view support for delayed episodes
++ - [ ] Setup SEO support for the whole application
 + - [x] Implement HLS streaming for the video player view
   + - [x] Study how to implement HLS properly
   + - [x] Implment a proper HLS Video player
