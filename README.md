@@ -75,6 +75,8 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [x] Define a proper pipeline that edits videos programmatically
   + - [x] Develop cli to interact with video editing pipeline
   + - [x] Apply steps of the process programmatically
+  + - [ ] Setup cactus intro video sequence for edited videos
+  + - [ ] Include subtitle time editing (modify subtitle appearance times)
   + - [ ] Setup proper cactus watermark
   + - [ ] Setup proper cactus intro sequence in the edited videos
 + - [ ] Implement a not found page for content that is not found
