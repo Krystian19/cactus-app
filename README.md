@@ -68,6 +68,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup db support for movies and ovas
 + - [ ] Setup schedule view support for episodes that are out but not translated
 + - [ ] Setup schedule view support for delayed episodes
+  + - [ ] Set time countdown for an episode in the anime info view (state delayed episodes)
 + - [ ] Setup SEO support for the whole application
 + - [x] Implement HLS streaming for the video player view
   + - [x] Study how to implement HLS properly
@@ -77,7 +78,7 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [x] Develop cli to interact with video editing pipeline
   + - [x] Apply steps of the process programmatically
   + - [ ] Setup cactus intro video sequence for edited videos
-  + - [ ] Include subtitle time editing (modify subtitle appearance times)
+  + - [ ] Include subtitle time editing (modify subtitle appearance times)k
   + - [ ] Setup proper cactus watermark
   + - [ ] Setup proper cactus intro sequence in the edited videos
 + - [ ] Implement a not found page for content that is not found
