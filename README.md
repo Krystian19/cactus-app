@@ -76,6 +76,7 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [x] Study how to implement HLS properly
   + - [x] Implment a proper HLS Video player
   + - [x] Implement a proper local HLS server for development
+  + - [ ] Set video server to serve static subtitle files 
 + - [x] Define a proper pipeline that edits videos programmatically
   + - [x] Develop cli to interact with video editing pipeline
   + - [x] Apply steps of the process programmatically
