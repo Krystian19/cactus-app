@@ -72,12 +72,12 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Set time countdown for an episode in the anime info view (state delayed episodes)
 + - [ ] Setup SEO support for the whole application
 + - [ ] Add picture-in-picture functionality to the video player
-+ - [x] Implement HLS streaming for the video player view
++ - [ ] Implement HLS streaming for the video player view
   + - [x] Study how to implement HLS properly
   + - [x] Implment a proper HLS Video player
   + - [x] Implement a proper local HLS server for development
   + - [ ] Set video server to serve static subtitle files 
-+ - [x] Define a proper pipeline that edits videos programmatically
++ - [ ] Define a proper pipeline that edits videos programmatically
   + - [x] Develop cli to interact with video editing pipeline
   + - [x] Apply steps of the process programmatically
   + - [ ] Setup cactus intro video sequence for edited videos
