@@ -71,6 +71,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup schedule view support for delayed episodes
   + - [ ] Set time countdown for an episode in the anime info view (state delayed episodes)
 + - [ ] Setup SEO support for the whole application
+  + - [ ] Setup SEO support for every anime episode detail view
 + - [ ] Add picture-in-picture functionality to the video player
 + - [ ] Implement HLS streaming for the video player view
   + - [x] Study how to implement HLS properly
