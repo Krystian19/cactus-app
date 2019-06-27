@@ -62,6 +62,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Remove logger points in the client service that are not useful
   + - [ ] Remove the video proxy logger
   + - [ ] Remove the image proxy logger
+  + - [ ] Setup logger event for when a service fails, and shutsdown
 + - [ ] Include the logger in the backend service for all incoming graphQL requests
 + - [ ] Setup glossary of services in the Meta project's README.md
 + - [ ] Setup multi-language support for the client
