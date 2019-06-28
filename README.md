@@ -59,10 +59,10 @@ docker exec -ti cactus_backend_admin /code/seeds.sh
 And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todos
-+ - [ ] Remove logger points in the client service that are not useful
-  + - [ ] Remove the video proxy logger
-  + - [ ] Remove the image proxy logger
-  + - [ ] Setup logger event for when a service fails, and shutsdown
++ - [x] Remove logger points in the client service that are not useful
+  + - [x] Remove the video proxy logger
+  + - [x] Remove the image proxy logger
+  + - [x] Setup logger event for when a service fails, and shutdown
 + - [ ] Include the logger in the backend service for all incoming graphQL requests
 + - [ ] Setup glossary of services in the Meta project's README.md
 + - [ ] Setup multi-language support for the client
