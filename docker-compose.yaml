@@ -64,6 +64,12 @@ services:
       DB_USERNAME: "root"
       DB_PASSWORD: "secret"
       DB_FORCE_RESTART: "false"
+      
+      # Name of this service
+      SERVICE_NAME: "cactus_backend"
+
+      # Logger service URL
+      LOGGER_SERVICE_HOST: "http://cactus.logger:5341/"
 
       # URL of the service that is running a backend instance
       BACKEND_SERVICE_URL: "http://cactus.backend.admin:8000/"
