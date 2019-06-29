@@ -58,13 +58,30 @@ docker exec -ti cactus_backend_admin /code/seeds.sh
 
 And voilà, the web client should be running @ http://localhost:5000/
 
+# Glossary of GUI routes
+
+- Web Client
+    - Running @ http://localhost:5000
+
+- GraphQL playground
+    - Running @ http://localhost:3000/graphql
+
+- Logger service UI
+    - Running @ http://localhost:4040
+
+- Anime Content administration
+    - Running @ http://localhost:6500/admin
+
+- PHPMyAdmin Instance, User: "root", Password: "secret"
+    - Running @ http://localhost:8080
+
 ## Todos
 + - [x] Remove logger points in the client service that are not useful
   + - [x] Remove the video proxy logger
   + - [x] Remove the image proxy logger
   + - [x] Setup logger event for when a service fails, and shutdown
 + - [x] Include the logger in the backend service for all incoming graphQL requests
-+ - [ ] Setup glossary of services in the Meta project's README.md
++ - [x] Setup glossary of services in the Meta project's README.md
 + - [ ] Setup multi-language support for the client
   + - [ ] Setup a way of signaling that an episode is only available in a certain language
   + - [ ] Caption support for the video player, video server and backend admin
