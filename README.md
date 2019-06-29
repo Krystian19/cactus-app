@@ -58,7 +58,7 @@ docker exec -ti cactus_backend_admin /code/seeds.sh
 
 And voilà, the web client should be running @ http://localhost:5000/
 
-# Glossary of GUI routes
+## Glossary of routes
 
 - Web Client
     - Running @ http://localhost:5000
