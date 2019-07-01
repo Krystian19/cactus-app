@@ -76,12 +76,6 @@ And voilà, the web client should be running @ http://localhost:5000/
     - Running @ http://localhost:8080
 
 ## Todos
-+ - [x] Remove logger points in the client service that are not useful
-  + - [x] Remove the video proxy logger
-  + - [x] Remove the image proxy logger
-  + - [x] Setup logger event for when a service fails, and shutdown
-+ - [x] Include the logger in the backend service for all incoming graphQL requests
-+ - [x] Setup glossary of services in the Meta project's README.md
 + - [ ] Setup multi-language support for the client
   + - [ ] Setup a way of signaling that an episode is only available in a certain language
   + - [ ] Caption support for the video player, video server and backend admin
