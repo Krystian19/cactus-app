@@ -79,7 +79,6 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup multi-language support for the client
   + - [ ] Setup a way of signaling that an episode is only available in a certain language
   + - [ ] Caption support for the video player, video server and backend admin
-+ - [ ] Setup views tracking of the anime video view
 + - [ ] Setup the django admin to leverage massive anime content amounts
 + - [ ] Setup a way in the anime info view to connect with the next season
 + - [ ] Setup db support for movies and ovas
@@ -87,6 +86,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup schedule view support for episodes that are out but not translated
 + - [ ] Setup schedule view support for delayed episodes
   + - [ ] Set time countdown for an episode in the anime info view (state delayed episodes)
++ - [ ] Setup views tracking of the anime video view
 + - [ ] Setup SEO support for the whole application
   + - [ ] Setup SEO support for every anime episode detail view
 + - [ ] Add picture-in-picture functionality to the video player
