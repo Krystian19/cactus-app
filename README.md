@@ -79,6 +79,11 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup multi-language support for the client
   + - [ ] Setup a way of signaling that an episode is only available in a certain language
   + - [ ] Caption support for the video player, video server and backend admin
++ - [ ] Implement HLS streaming for the video player view
+  + - [x] Study how to implement HLS properly
+  + - [x] Implment a proper HLS Video player
+  + - [x] Implement a proper local HLS server for development
+  + - [ ] Set video server to serve static subtitle files
 + - [ ] Setup the django admin to leverage massive anime content amounts
 + - [ ] Setup a way in the anime info view to connect with the next season
 + - [ ] Setup db support for movies and ovas
@@ -90,11 +95,6 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup SEO support for the whole application
   + - [ ] Setup SEO support for every anime episode detail view
 + - [ ] Add picture-in-picture functionality to the video player
-+ - [ ] Implement HLS streaming for the video player view
-  + - [x] Study how to implement HLS properly
-  + - [x] Implment a proper HLS Video player
-  + - [x] Implement a proper local HLS server for development
-  + - [ ] Set video server to serve static subtitle files 
 + - [ ] Define a proper pipeline that edits videos programmatically
   + - [x] Develop cli to interact with video editing pipeline
   + - [x] Apply steps of the process programmatically
