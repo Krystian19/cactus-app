@@ -16,7 +16,7 @@ services:
 
   cactus.phpmyadmin:
     container_name: cactus_phpmyadmin
-    image: phpmyadmin/phpmyadmin:latest
+    image: phpmyadmin/phpmyadmin:4.8
     environment:
       MYSQL_ROOT_PASSWORD: "secret"
       PMA_HOST: "cactus.mysql"
