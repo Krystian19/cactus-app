@@ -76,9 +76,10 @@ And voilà, the web client should be running @ http://localhost:5000/
     - Running @ http://localhost:8080
 
 ## Todos
-+ - [ ] Setup multi-language support for the client
++ - [ ] Setup multi-language support for the app
   + - [ ] Setup a way of signaling that an episode is only available in a certain language
   + - [ ] Caption support for the video player, video server and backend admin
+  + - [ ] Setup Category title support based in the language
 + - [ ] Implement HLS streaming for the video player view
   + - [x] Study how to implement HLS properly
   + - [x] Implment a proper HLS Video player
