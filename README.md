@@ -77,6 +77,8 @@ And voilà, the web client should be running @ http://localhost:5000/
 
 ## Todos
 + - [ ] In the Anime Search view thumbnails show the name of the anime and the season, (Not the seasons's name)
++ - [ ] Take into account that with the new changes, Movies can appear in the hottest episodes and newest episodes sections
+
 + - [ ] Setup multi-language support for the app
   + - [ ] Setup a way of signaling that an episode is only available in a certain language
   + - [ ] Caption support for the video player, video server and backend admin
