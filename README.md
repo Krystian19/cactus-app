@@ -76,6 +76,7 @@ And voilà, the web client should be running @ http://localhost:5000/
     - Running @ http://localhost:8080
 
 ## Todos
++ - [ ] In the Anime Search view thumbnails show the name of the anime and the season, (Not the seasons's name)
 + - [ ] Setup multi-language support for the app
   + - [ ] Setup a way of signaling that an episode is only available in a certain language
   + - [ ] Caption support for the video player, video server and backend admin
