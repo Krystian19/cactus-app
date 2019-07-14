@@ -82,6 +82,14 @@ And voilà, the web client should be running @ http://localhost:5000/
     + - [ ] Setup client's Anime Details view to support Movies
 + - [ ] Setup Multi-language support for categories
 + - [ ] Setup Multi-language support for Episodes, Movies, and OVAs (Including Markup)
++ - [ ] Make Release titles optional, if the Relaese title of a Season is not specified mark it as "title (Season 1)", if it's not a Season then just display the Anime name.
+
+
+
+
+
+
+
 
 
 + - [ ] Setup multi-language support for the app
