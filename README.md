@@ -84,6 +84,9 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup Multi-language support for Episodes, Movies, and OVAs (Including Markup)
 + - [ ] Make Release titles optional, if the Relaese title of a Season is not specified mark it as "title (Season 1)", if it's not a Season then just display the Anime name.
 + - [ ] Dashboard view will only show episodes of Seasons (Not movies, OVAs, Special)
++ - [ ] Setup schedule view support for episodes that are out but not translated
++ - [ ] Setup schedule view support for delayed episodes
+  + - [ ] Set time countdown for an episode in the anime info view (state delayed episodes)
 
 
 
@@ -107,9 +110,6 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup db support for movies and ovas
 + - [ ] Setup support for episodes that are not available in the user's browser language
     + - [ ] Setup support for raw episodes and movies client-side
-+ - [ ] Setup schedule view support for episodes that are out but not translated
-+ - [ ] Setup schedule view support for delayed episodes
-  + - [ ] Set time countdown for an episode in the anime info view (state delayed episodes)
 + - [ ] Setup views tracking of the anime video view
 + - [ ] Setup SEO support for the whole application
   + - [ ] Setup SEO support for every anime episode detail view
