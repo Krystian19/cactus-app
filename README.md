@@ -87,6 +87,9 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup schedule view support for episodes that are out but not translated
 + - [ ] Setup schedule view support for delayed episodes
   + - [ ] Set time countdown for an episode in the anime info view (state delayed episodes)
++ - [ ] Improve client's support for mobile
+  + - [ ] Scrolling is painfully slow in IOS devices
+  + - [ ] Support for landscape usage of the app in mobile
 
 
 
