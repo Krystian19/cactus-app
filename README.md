@@ -93,7 +93,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup session based security in the client service to provent access to the static files if the client is lacking the session value
 + - [ ] Limit the amount of categories that can be filtered (to 4) (Check for the compatibility in mobile, it breaks when there's a lot of them)
 + - [ ] Improve client's support for mobile
-  + - [ ] Scrolling is painfully slow in IOS devices
+  + - [x] Scrolling is painfully slow in IOS devices
   + - [ ] Support for landscape usage of the app in mobile
 
 
