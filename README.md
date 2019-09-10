@@ -95,6 +95,10 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Improve client's support for mobile
   + - [x] Scrolling is painfully slow in IOS devices
   + - [ ] Support for landscape usage of the app in mobile
++ - [ ] Setup Google Analytics support throughout the app
+  + - [ ] Setup base Google Analytics snippet to check the amount of people in the app right now
+  + - [ ] Setup base Google Analytics snippet to check the amount of people in an specific episode
+    + - [ ] Setup DB support to save Google Analytics snippets to be rendered on every episode of any series.
 
 
 
