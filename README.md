@@ -69,7 +69,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 - Logger service UI
     - Running @ http://localhost:4040
 
-- Anime Content administration
+- Content Admin panel
     - Running @ http://localhost:6500/admin
 
 - PHPMyAdmin Instance, User: "root", Password: "secret"
