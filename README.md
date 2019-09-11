@@ -92,9 +92,8 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Set time countdown for an episode in the anime info view (state delayed episodes)
 + - [ ] Setup session based security in the client service to provent access to the static files if the client is lacking the session value
 + - [ ] Limit the amount of categories that can be filtered (to 4) (Check for the compatibility in mobile, it breaks when there's a lot of them)
-+ - [ ] Improve client's support for mobile
++ - [x] Improve client's support for mobile
   + - [x] Scrolling is painfully slow in IOS devices
-  + - [ ] Block the usage of landscape in mobile.
 + - [ ] Setup Google Analytics support throughout the app
   + - [ ] Setup base Google Analytics snippet to check the amount of people in the app right now
   + - [ ] Setup base Google Analytics snippet to check the amount of people in an specific episode
