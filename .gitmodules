@@ -19,10 +19,10 @@
 	url = git@github.com:Krystian19/cactus-app-backend-admin-service.git
 	branch = master
 [submodule "cactus-bff"]
-	path = cactus-bff
+	path = bff
 	url = git@github.com:Krystian19/cactus-bff.git
 	branch = master
 [submodule "cactus-core"]
-	path = cactus-core
+	path = core
 	url = git@github.com:Krystian19/cactus-core.git
 	branch = master
