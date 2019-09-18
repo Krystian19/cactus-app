@@ -87,6 +87,44 @@ services:
         condition: service_started
       cactus.backend.admin:
         condition: service_healthy
+
+  cactus.bff:
+    container_name: cactus.bff
+    build:
+      ./cactus-bff
+    volumes:
+      - ./cactus-bff:/go/src/app
+    links:
+      - cactus.core
+    depends_on:
+      - cactus.core
+    ports: ['4000:3000']
+    environment:
+      CACTUS_CORE_URL: "cactus.core:9040"
+
+  cactus.core:
+    container_name: cactus.core
+    build:
+      ./cactus-core
+    volumes:
+      - ./cactus-core:/go/src/app
+    links:
+      - cactus.core
+    depends_on:
+      - cactus.core
+    ports: ['9040:9040']
+    environment:
+      DB_HOST: "cactus.mysql"
+      DB_NAME: "cactus_app"
+      DB_USERNAME: "root"
+      DB_PASSWORD: "secret"
+    links:
+      - cactus.mysql
+    depends_on:
+      cactus.mysql:
+        condition: service_started
+      cactus.mysql:
+        condition: service_healthy
   
   cactus.client:
     container_name: cactus_client
