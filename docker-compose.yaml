@@ -91,9 +91,9 @@ services:
   cactus.bff:
     container_name: cactus.bff
     build:
-      ./cactus-bff
+      ./bff
     volumes:
-      - ./cactus-bff:/go/src/app
+      - ./bff:/go/src/app
     links:
       - cactus.core
     depends_on:
@@ -105,9 +105,9 @@ services:
   cactus.core:
     container_name: cactus.core
     build:
-      ./cactus-core
+      ./core
     volumes:
-      - ./cactus-core:/go/src/app
+      - ./core:/go/src/app
     links:
       - cactus.core
     depends_on:
