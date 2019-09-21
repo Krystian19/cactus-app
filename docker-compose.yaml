@@ -89,7 +89,7 @@ services:
         condition: service_healthy
 
   cactus.bff:
-    container_name: cactus.bff
+    container_name: cactus_bff
     build:
       ./bff
     volumes:
@@ -103,7 +103,7 @@ services:
       CACTUS_CORE_URL: "cactus.core:9040"
 
   cactus.core:
-    container_name: cactus.core
+    container_name: cactus_core
     build:
       ./core
     volumes:
