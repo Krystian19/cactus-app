@@ -1,15 +1,15 @@
 version: '2.3'
 
 services:
-  cactus.mysql:
-    container_name: cactus_mysql
-    image: mysql:5.7.24
-    command: --character-set-server=utf8 --collation-server=utf8_general_ci
+  cactus.mariadb:
+    container_name: cactus_mariadb
+    image: bitnami/mariadb:10.3-ol-7
     environment:
-      MYSQL_ROOT_PASSWORD: "secret"
-      MYSQL_DATABASE: "cactus_app"
+      MARIADB_ROOT_PASSWORD: "secret"
+      MARIADB_DATABASE: "cactus_app"
+      MARIADB_EXTRA_FLAGS: '--character-set-server=utf8 --collation-server=utf8_general_ci --max-connect-errors=1500 --max_connections=3000'
     healthcheck:
-      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      test: ["CMD", "mysqladmin" ,"ping", "--silent", "-h", "localhost"]
       timeout: 6s
       retries: 10
     ports: ['3306:3306']
@@ -18,12 +18,12 @@ services:
     container_name: cactus_phpmyadmin
     image: phpmyadmin/phpmyadmin:4.8
     environment:
-      MYSQL_ROOT_PASSWORD: "secret"
-      PMA_HOST: "cactus.mysql"
+      MARIADB_ROOT_PASSWORD: "secret"
+      PMA_HOST: "cactus.mariadb"
       PMA_PORT: "3306"
     ports: ['8080:80']
     links:
-      - cactus.mysql
+      - cactus.mariadb
 
   cactus.backend.admin:
     container_name: cactus_backend_admin
@@ -43,11 +43,11 @@ services:
       retries: 10
     ports: ['6500:8000']
     links:
-      - cactus.mysql
+      - cactus.mariadb
     depends_on:
-      cactus.mysql:
+      cactus.mariadb:
         condition: service_started
-      cactus.mysql:
+      cactus.mariadb:
         condition: service_healthy
 
   cactus.backend:
@@ -59,7 +59,7 @@ services:
     environment:
       ENV: "development"
       PORT: "3000"
-      DB_HOST: "cactus.mysql"
+      DB_HOST: "cactus.mariadb"
       DB_NAME: "cactus_app"
       DB_USERNAME: "root"
       DB_PASSWORD: "secret"
@@ -76,12 +76,12 @@ services:
 
     ports: ['3000:3000']
     links:
-      - cactus.mysql
+      - cactus.mariadb
       - cactus.backend.admin
     depends_on:
-      cactus.mysql:
+      cactus.mariadb:
         condition: service_started
-      cactus.mysql:
+      cactus.mariadb:
         condition: service_healthy
       cactus.backend.admin:
         condition: service_started
@@ -114,16 +114,16 @@ services:
       - cactus.core
     ports: ['9040:9040']
     environment:
-      DB_HOST: "cactus.mysql"
+      DB_HOST: "cactus.mariadb"
       DB_NAME: "cactus_app"
       DB_USERNAME: "root"
       DB_PASSWORD: "secret"
     links:
-      - cactus.mysql
+      - cactus.mariadb
     depends_on:
-      cactus.mysql:
+      cactus.mariadb:
         condition: service_started
-      cactus.mysql:
+      cactus.mariadb:
         condition: service_healthy
   
   cactus.client:
