@@ -3,11 +3,11 @@ version: '2.3'
 services:
   cactus.mariadb:
     container_name: cactus_mariadb
-    image: bitnami/mariadb:10.3-ol-7
+    image: bitnami/mariadb:10.2-debian-9
     environment:
       MARIADB_ROOT_PASSWORD: "secret"
       MARIADB_DATABASE: "cactus_app"
-      MARIADB_EXTRA_FLAGS: '--character-set-server=utf8 --collation-server=utf8_general_ci --max-connect-errors=1500 --max_connections=3000'
+      MARIADB_EXTRA_FLAGS: '--character-set-server=utf8 --collation-server=utf8_general_ci --max-connect-errors=2000 --max_connections=3000'
     healthcheck:
       test: ["CMD", "mysqladmin" ,"ping", "--silent", "-h", "localhost"]
       timeout: 6s
