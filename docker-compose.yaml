@@ -141,7 +141,7 @@ services:
       LOGGER_SERVICE_HOST: "http://cactus.logger:5341/"
 
       # URL of the service that is running a backend instance
-      BACKEND_SERVICE_URL: "http://cactus.backend:3000/"
+      BACKEND_SERVICE_URL: "http://cactus.bff:3000/graphql"
 
       # URL of the local image cdn service
       IMG_CDN_SERVICE_URL: "http://cactus.img_cdn:80/"
@@ -149,12 +149,12 @@ services:
       # URL of the local video cdn service
       VIDEO_CDN_SERVICE_URL: "http://cactus.video_cdn:80/live/"
     links:
-      - cactus.backend
+      - cactus.bff
       - cactus.img_cdn
       - cactus.video_cdn
       - cactus.logger
     depends_on:
-      - cactus.backend
+      - cactus.bff
       - cactus.img_cdn
       - cactus.video_cdn
       - cactus.logger
