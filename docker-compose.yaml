@@ -1,29 +1,29 @@
 version: '2.3'
 
 services:
-  cactus.mariadb:
-    container_name: cactus_mariadb
-    image: bitnami/mariadb:10.2-debian-9
+  cactus.postgres:
+    container_name: cactus_postgres
+    image: postgres:9.6.15-alpine
+    command: --shared_buffers=256MB --max_connections=2000
     environment:
-      MARIADB_ROOT_PASSWORD: "secret"
-      MARIADB_DATABASE: "cactus_app"
-      MARIADB_EXTRA_FLAGS: '--character-set-server=utf8 --collation-server=utf8_general_ci --max-connect-errors=2000 --max_connections=3000'
+      POSTGRES_PASSWORD: "secret"
+      POSTGRES_DB: "cactus_app"
     healthcheck:
-      test: ["CMD", "mysqladmin" ,"ping", "--silent", "-h", "localhost"]
-      timeout: 6s
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 10s
+      timeout: 5s
       retries: 10
-    ports: ['3306:3306']
+    ports: ['5432:5432']
 
-  cactus.phpmyadmin:
-    container_name: cactus_phpmyadmin
-    image: phpmyadmin/phpmyadmin:4.8
+  cactus.pgadmin:
+    container_name: cactus_pgadmin
+    image: fenglc/pgadmin4:2.1-python2.7-alpine
     environment:
-      MARIADB_ROOT_PASSWORD: "secret"
-      PMA_HOST: "cactus.mariadb"
-      PMA_PORT: "3306"
-    ports: ['8080:80']
+      DEFAULT_USER: "postgres"
+      DEFAULT_PASSWORD: "secret"
+    ports: ['5050:5050']
     links:
-      - cactus.mariadb
+      - cactus.postgres
 
   cactus.backend.admin:
     container_name: cactus_backend_admin
@@ -43,11 +43,11 @@ services:
       retries: 10
     ports: ['6500:8000']
     links:
-      - cactus.mariadb
+      - cactus.postgres
     depends_on:
-      cactus.mariadb:
+      cactus.postgres:
         condition: service_started
-      cactus.mariadb:
+      cactus.postgres:
         condition: service_healthy
 
   cactus.backend:
@@ -59,9 +59,9 @@ services:
     environment:
       ENV: "development"
       PORT: "3000"
-      DB_HOST: "cactus.mariadb"
+      DB_HOST: "cactus.postgres"
       DB_NAME: "cactus_app"
-      DB_USERNAME: "root"
+      DB_USERNAME: "postgres"
       DB_PASSWORD: "secret"
       DB_FORCE_RESTART: "false"
       
@@ -76,12 +76,12 @@ services:
 
     ports: ['3000:3000']
     links:
-      - cactus.mariadb
+      - cactus.postgres
       - cactus.backend.admin
     depends_on:
-      cactus.mariadb:
+      cactus.postgres:
         condition: service_started
-      cactus.mariadb:
+      cactus.postgres:
         condition: service_healthy
       cactus.backend.admin:
         condition: service_started
@@ -114,16 +114,16 @@ services:
       - cactus.core
     ports: ['9040:9040']
     environment:
-      DB_HOST: "cactus.mariadb"
+      DB_HOST: "cactus.postgres"
       DB_NAME: "cactus_app"
-      DB_USERNAME: "root"
+      DB_USERNAME: "postgres"
       DB_PASSWORD: "secret"
     links:
-      - cactus.mariadb
+      - cactus.postgres
     depends_on:
-      cactus.mariadb:
+      cactus.postgres:
         condition: service_started
-      cactus.mariadb:
+      cactus.postgres:
         condition: service_healthy
   
   cactus.client:
@@ -141,7 +141,7 @@ services:
       LOGGER_SERVICE_HOST: "http://cactus.logger:5341/"
 
       # URL of the service that is running a backend instance
-      BACKEND_SERVICE_URL: "http://cactus.backend:3000/"
+      BACKEND_SERVICE_URL: "http://cactus.bff:3000/graphql"
 
       # URL of the local image cdn service
       IMG_CDN_SERVICE_URL: "http://cactus.img_cdn:80/"
@@ -149,12 +149,12 @@ services:
       # URL of the local video cdn service
       VIDEO_CDN_SERVICE_URL: "http://cactus.video_cdn:80/live/"
     links:
-      - cactus.backend
+      - cactus.bff
       - cactus.img_cdn
       - cactus.video_cdn
       - cactus.logger
     depends_on:
-      - cactus.backend
+      - cactus.bff
       - cactus.img_cdn
       - cactus.video_cdn
       - cactus.logger
