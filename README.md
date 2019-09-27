@@ -91,6 +91,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup schedule view support for episodes that are out but not translated
 + - [ ] Setup schedule view support for delayed episodes
   + - [ ] Set time countdown for an episode in the anime info view (state delayed episodes)
+  + - [ ] Episodes can be delayed for more than 2 weeks find a way of showing that.
 + - [ ] Setup session based security in the client service to provent access to the static files if the client is lacking the session value
 + - [ ] Limit the amount of categories that can be filtered (to 4) (Check for the compatibility in mobile, it breaks when there's a lot of them)
 + - [x] Improve client's support for mobile
