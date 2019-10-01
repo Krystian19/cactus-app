@@ -97,7 +97,10 @@ services:
     links:
       - cactus.core
     depends_on:
-      - cactus.core
+      cactus.core:
+        condition: service_started
+      cactus.core:
+        condition: service_healthy
     ports: ['4000:3000']
     environment:
       CACTUS_CORE_URL: "cactus.core:9040"
