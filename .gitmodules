@@ -14,9 +14,9 @@
 	path = video-cdn
 	url = git@github.com:Krystian19/cactus-fake-video-cdn-service.git
 	branch = master
-[submodule "backend_admin"]
-	path = backend_admin
-	url = git@github.com:Krystian19/cactus-app-backend-admin-service.git
+[submodule "admin"]
+	path = admin
+	url = git@github.com:Krystian19/cactus-app-admin-service.git
 	branch = master
 [submodule "bff"]
 	path = bff
