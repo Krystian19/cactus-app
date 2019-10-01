@@ -118,6 +118,12 @@ services:
       DB_NAME: "cactus_app"
       DB_USERNAME: "postgres"
       DB_PASSWORD: "secret"
+    healthcheck:
+      # /go/bin/grpc-health-probe -addr=localhost:9040 -connect-timeout 250ms -rpc-timeout 100ms
+      test: ["CMD", "/go/bin/grpc-health-probe", "-addr=localhost:9040", "-connect-timeout","250ms", "-rpc-timeout","100ms"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
     links:
       - cactus.postgres
     depends_on:
