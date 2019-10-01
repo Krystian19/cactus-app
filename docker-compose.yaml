@@ -28,9 +28,9 @@ services:
   cactus.admin:
     container_name: cactus_admin
     build:
-      ./backend_admin
+      ./admin
     volumes:
-      - ./backend_admin:/code
+      - ./admin:/code
     environment:
       ENV: "development"
       DJANGO_ADMIN_USER: admin
@@ -48,44 +48,6 @@ services:
       cactus.postgres:
         condition: service_started
       cactus.postgres:
-        condition: service_healthy
-
-  cactus.backend:
-    container_name: cactus_backend
-    build:
-      ./backend
-    volumes:
-      - ./backend:/app
-    environment:
-      ENV: "development"
-      PORT: "3000"
-      DB_HOST: "cactus.postgres"
-      DB_NAME: "cactus_app"
-      DB_USERNAME: "postgres"
-      DB_PASSWORD: "secret"
-      DB_FORCE_RESTART: "false"
-      
-      # Name of this service
-      SERVICE_NAME: "cactus_backend"
-
-      # Logger service URL
-      LOGGER_SERVICE_HOST: "http://cactus.logger:5341/"
-
-      # URL of the service that is running a backend instance
-      BACKEND_SERVICE_URL: "http://cactus.admin:8000/"
-
-    ports: ['3000:3000']
-    links:
-      - cactus.postgres
-      - cactus.admin
-    depends_on:
-      cactus.postgres:
-        condition: service_started
-      cactus.postgres:
-        condition: service_healthy
-      cactus.admin:
-        condition: service_started
-      cactus.admin:
         condition: service_healthy
 
   cactus.bff:
