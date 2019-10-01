@@ -20,9 +20,9 @@
 	branch = master
 [submodule "bff"]
 	path = bff
-	url = git@github.com:Krystian19/cactus-bff.git
+	url = git@github.com:Krystian19/cactus-app-bff-service.git
 	branch = master
 [submodule "core"]
 	path = core
-	url = git@github.com:Krystian19/cactus-core.git
+	url = git@github.com:Krystian19/cactus-app-core-service.git
 	branch = master
