@@ -64,7 +64,7 @@ And voilà, the web client should be running @ http://localhost:5000/
     - Running @ http://localhost:5000
 
 - GraphQL playground
-    - Running @ http://localhost:3000/graphql
+    - Running @ http://localhost:4000
 
 - Logger service UI
     - Running @ http://localhost:4040
@@ -72,8 +72,8 @@ And voilà, the web client should be running @ http://localhost:5000/
 - Content Admin panel
     - Running @ http://localhost:6500/admin
 
-- PHPMyAdmin Instance, User: "root", Password: "secret"
-    - Running @ http://localhost:8080
+- PgAdmin Instance, User: "postgres", Password: "secret" (connect to cactus.postgres host)
+    - Running @ http://localhost:5050
 
 ## Todos
 + - [ ] Remove logging service, as it is not very useful in this particular project
