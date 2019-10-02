@@ -112,7 +112,7 @@ services:
       LOGGER_SERVICE_HOST: "http://cactus.logger:5341/"
 
       # URL of the service that is running a backend instance
-      BACKEND_SERVICE_URL: "http://cactus.bff:3000/graphql"
+      BFF_SERVICE_URL: "http://cactus.bff:3000/graphql"
 
       # URL of the local image cdn service
       IMG_CDN_SERVICE_URL: "http://cactus.img_cdn:80/"
