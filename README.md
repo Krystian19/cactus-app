@@ -83,6 +83,7 @@ And voilà, the web client should be running @ http://localhost:5000/
     + - [ ] Setup the EpisodeSeen query method to be called by the client when an episode is seen
         + - [ ] Setup the EpisodeSeen query and setup the ability to order episodes by the amount times it's been seen
             + - [ ] Setup the EpisodeSeen table and model
++ - [ ] Remove the video player controls in mobile (as the embedded mobile player is doing it by itself already)
 + - [ ] In the Anime Search view thumbnails show the name of the anime and the season, (Not the seasons's name)
 + - [ ] Setup client support for movies, ovas and specials
     + - [ ] Setup client's Anime Details view to support Movies
