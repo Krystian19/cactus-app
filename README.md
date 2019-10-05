@@ -123,7 +123,7 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Set video server to serve static subtitle files
 + - [ ] Setup the django admin to leverage massive anime content amounts
 + - [ ] Setup a way in the anime info view to connect with the next season
-+ - [ ] Setup db support for movies and ovas
++ - [x] Setup db support for movies and ovas
 + - [ ] Setup support for episodes that are not available in the user's browser language
     + - [ ] Setup support for raw episodes and movies client-side
 + - [ ] Setup views tracking of the anime video view
