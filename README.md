@@ -76,8 +76,8 @@ And voilà, the web client should be running @ http://localhost:5000/
     - Running @ http://localhost:5050
 
 ## Todos
-+ - [ ] Experiment with a new library for the video player (it appears to have a better compatibility for hls) https://www.npmjs.com/package/react-player
-+ - [ ] Setup the EpisodeSeen query method to be called by the client when an episode is seen
++ - [x] Experiment with a new library for the video player (it appears to have a better compatibility for hls) https://www.npmjs.com/package/react-player
++ - [x] Setup the EpisodeSeen query method to be called by the client when an episode is seen
     + - [ ] Setup the EpisodeSeen query and setup the ability to order episodes by the amount times it's been seen
         + - [x] Setup the EpisodeSeen table and model
 + - [ ] Take into account that with the new changes, you need to prevent Movies/Specials will appear on the Hottest/Newest Episodes section (in the title it should show that it is a movie or an special)
