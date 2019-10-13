@@ -76,6 +76,9 @@ And voilà, the web client should be running @ http://localhost:5000/
     - Running @ http://localhost:5050
 
 ## Todos
++ - [ ] Setup Multi-language support for categories
+    + - [ ] Setup Multi-language display for categories
+        + - [ ] Setup Multi-language search for categories
 + - [x] Experiment with a new library for the video player (it appears to have a better compatibility for hls) https://www.npmjs.com/package/react-player
 + - [x] Setup the EpisodeSeen query method to be called by the client when an episode is seen
     + - [x] Setup the EpisodeSeen query and setup the ability to order episodes by the amount times it's been seen
@@ -90,7 +93,6 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Make Release titles optional, if the Relaese title of a Season is not specified mark it as "title (Season 1)", if it's not a Season then just display the Anime name.
 + - [ ] Setup client support for movies, ovas and specials
     + - [ ] Setup client's Anime Details view to support Movies
-+ - [ ] Setup Multi-language support for categories
 + - [ ] Setup Multi-language support for Episodes, Movies, and OVAs (Including Markup)
 + - [ ] Setup schedule view support for episodes that are out but not translated
 + - [ ] Setup schedule view support for delayed episodes
