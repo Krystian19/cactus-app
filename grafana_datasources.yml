@@ -1,0 +1,17 @@
+apiVersion: 1
+deleteDatasources:
+datasources:
+- name: Cactus Prometheus
+  type: prometheus
+  typeLogoUrl: public/app/plugins/datasource/prometheus/img/prometheus_logo.svg
+  access: proxy
+  url: http://cactus.prometheus:9090
+  password: ''
+  user: ''
+  database: ''
+  basicAuth: false
+  isDefault: true
+  jsonData:
+    httpMethod: GET
+    keepCookies: []
+  readOnly: false
