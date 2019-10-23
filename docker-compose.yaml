@@ -158,6 +158,11 @@ services:
     image: prom/prometheus:latest
     volumes:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    links:
+      - cactus.client
+      - cactus.bff
+      - cactus.img_cdn
+      - cactus.video_cdn
     ports: ['9090:9090']
 
   cactus.grafana: # Grafana service
