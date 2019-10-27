@@ -125,7 +125,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Setup views tracking of the anime video view
 + - [ ] Setup SEO support for the whole application
   + - [ ] Setup SEO support for every anime episode detail view
-+ - [ ] Add picture-in-picture functionality to the video player
++ - [x] Add picture-in-picture functionality to the video player
 + - [ ] Define a proper pipeline that edits videos programmatically
   + - [x] Develop cli to interact with video editing pipeline
   + - [x] Apply steps of the process programmatically
