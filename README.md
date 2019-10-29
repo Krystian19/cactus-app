@@ -76,6 +76,7 @@ And voilà, the web client should be running @ http://localhost:5000/
     - Running @ http://localhost:5050
 
 ## Todos
++ - [ ] Remove test.jpg and test.mp4 from lfs to ensure that when the projects are cloned without, those files are always present.
 + - [ ] Take into account that with the new changes, Movies/Specials will appear on the Hottest/Newest Episodes section (in the title it should show that it is a movie or an special)
 + - [ ] In the Anime Search view thumbnails show the name of the anime and the season, (Not the seasons's name)
 + - [ ] Make Release titles optional, if the Relaese title of a Season is not specified mark it as "title (Season 1)", if it's not a Season then just display the Anime name.
