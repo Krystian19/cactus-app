@@ -107,8 +107,8 @@ And voilà, the web client should be running @ http://localhost:5000/
 
 + - [ ] Create an infraestructure repo for the cactus project
 + - [ ] Setup multi-language support for the app
-  + - [ ] Setup a way of signaling that an episode is only available in a certain language
-  + - [ ] Caption support for the video player, video server and backend admin
+  + - [x] Setup a way of signaling that an episode is only available in a certain language
+  + - [x] Caption support for the video player, video server and backend admin
   + - [ ] Setup Category title support based in the language
 + - [ ] Setup Multi-language support for categories
     + - [ ] Setup Multi-language display for categories
