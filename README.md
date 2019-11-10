@@ -143,8 +143,6 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Complete missing tests of backend admin's models
 + - [ ] Complete model tests for the db module
-+ - [ ] Study how to convert the Frontend app in a Desktop native app
-  + - [ ] Study how to distribute updates to said Desktop app
 
 ## License
 MIT © [Jan Guzman](https://github.com/Krystian19)
