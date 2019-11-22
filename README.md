@@ -76,6 +76,8 @@ And voilà, the web client should be running @ http://localhost:5000/
     - Running @ http://localhost:5050
 
 ## Todos
++ - [ ] Disable GraphQL introspection for the client's proxy, in the BFF service
++ - [ ] Work with the GQL type generation on the client's service
 + - [ ] Replace query strings with multiline strings in the core service to make the queries more readable.
 + - [ ] Inside of the query strings in the core service, use the table name coming from the model functions intead of hardcoding them.
 + - [ ] Remove test.jpg and test.mp4 from lfs to ensure that when the projects are cloned without lfs, those files are always present.
