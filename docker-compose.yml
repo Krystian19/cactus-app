@@ -37,7 +37,6 @@ services:
       DJANGO_ADMIN_PASSWORD: "pass1234"
       DEBUG: "True" # Or "False"
     healthcheck:
-      # test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
       test: ["CMD",  "curl", "-I", "--fail", "http://localhost:8000/admin"]
       timeout: 6s
       retries: 10
@@ -66,6 +65,11 @@ services:
     ports: ['4000:3000']
     environment:
       CACTUS_CORE_URL: "cactus.core:9040"
+    healthcheck:
+      test: ["CMD",  "curl", "-I", "--fail", "http://localhost:3000/"]
+      interval: 10s
+      timeout: 6s
+      retries: 10
 
   cactus.core:
     container_name: cactus_core
@@ -125,10 +129,10 @@ services:
       - cactus.video_cdn
       - cactus.logger
     depends_on:
-      - cactus.bff
-      - cactus.img_cdn
-      - cactus.video_cdn
-      - cactus.logger
+      cactus.bff:
+        condition: service_started
+      cactus.bff:
+        condition: service_healthy
   
   cactus.img_cdn: # Local image CDN service
     container_name: cactus_img_cdn
