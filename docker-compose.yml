@@ -129,10 +129,10 @@ services:
       - cactus.video_cdn
       - cactus.logger
     depends_on:
-      - cactus.bff
-      - cactus.img_cdn
-      - cactus.video_cdn
-      - cactus.logger
+      cactus.bff:
+        condition: service_started
+      cactus.bff:
+        condition: service_healthy
   
   cactus.img_cdn: # Local image CDN service
     container_name: cactus_img_cdn
