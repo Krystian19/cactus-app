@@ -69,7 +69,7 @@ services:
       test: ["CMD",  "curl", "-I", "--fail", "http://localhost:3000/"]
       interval: 10s
       timeout: 6s
-      retries: 10
+      retries: 20
 
   cactus.core:
     container_name: cactus_core
