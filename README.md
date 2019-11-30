@@ -76,7 +76,7 @@ And voilà, the web client should be running @ http://localhost:5000/
     - Running @ http://localhost:5050
 
 ## Todos
-+ - [ ] Declare the healthcheck CMD used in travis.ci for the bff service in the docker-compose file
++ - [x] Declare the healthcheck CMD used in travis.ci for the bff service in the docker-compose file
 + - [x] Disable GraphQL introspection for the client's proxy, in the BFF service
 + - [ ] Work with the GQL type generation on the client's service
   + - [ ] Decide wether to use normal TS type files or a Standart TS file for the types
