@@ -101,7 +101,6 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Setup base Google Analytics snippet to check the amount of people in the app right now
   + - [ ] Setup base Google Analytics snippet to check the amount of people in an specific episode
     + - [ ] Setup DB support to save Google Analytics snippets to be rendered on every episode of any series.
-+ - [ ] Remove the seq logger from the system and use prometheus and grafana to log and track the static content delivery (if images and video chunks are actually being delivered, that way we can tell when do we need to scale our services).
 
 
 
