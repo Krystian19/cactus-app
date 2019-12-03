@@ -80,6 +80,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [x] Disable GraphQL introspection for the client's proxy, in the BFF service
 + - [x] Work with the GQL type generation on the client's service
   + - [x] Decide wether to use normal TS type files or a Standart TS file for the types
++ - [ ] Setup an Object generator for the types used in the testing files https://medium.com/@jaferson123/tdd-factory-generator-with-factory-ts-and-faker-js-to-ease-your-testing-in-typescript-applications-5afdd45e6e8
 + - [ ] Replace query strings with multiline strings in the core service to make the queries more readable.
 + - [ ] Inside of the query strings in the core service, use the table name coming from the model functions intead of hardcoding them.
 + - [ ] Remove test.jpg and test.mp4 from lfs to ensure that when the projects are cloned without lfs, those files are always present.
