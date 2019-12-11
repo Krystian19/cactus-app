@@ -121,7 +121,7 @@ And voilà, the web client should be running @ http://localhost:5000/
         + - [ ] Setup Multi-language search for categories
 + - [ ] Implement HLS streaming for the video player view
   + - [x] Study how to implement HLS properly
-  + - [x] Implment a proper HLS Video player
+  + - [x] Implement a proper HLS Video player
   + - [x] Implement a proper local HLS server for development
   + - [ ] Set video server to serve static subtitle files
     + - [ ] Setup a proper styling for those subtitles
