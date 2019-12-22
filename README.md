@@ -76,6 +76,7 @@ And voilà, the web client should be running @ http://localhost:5000/
     - Running @ http://localhost:5050
 
 ## Todos
++ - [ ] Improve shell script on the wait.sh in the client's CI pipeline, to avoid waiting forever for the build to finalize.
 + - [ ] Setup an Object generator for the types used in the testing files https://medium.com/@jaferson123/tdd-factory-generator-with-factory-ts-and-faker-js-to-ease-your-testing-in-typescript-applications-5afdd45e6e8
 + - [ ] Replace query strings with multiline strings in the core service to make the queries more readable.
 + - [ ] Inside of the query strings in the core service, use the table name coming from the model functions intead of hardcoding them.
