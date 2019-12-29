@@ -129,7 +129,7 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [x] Setup db support for movies and ovas
 + - [ ] Setup support for episodes that are not available in the user's browser language
     + - [ ] Setup support for raw episodes and movies client-side
-+ - [ ] Setup views tracking of the anime video view
++ - [x] Setup views tracking of the anime video view
 + - [ ] Setup SEO support for the whole application
   + - [ ] Setup SEO support for every anime episode detail view
 + - [x] Add picture-in-picture functionality to the video player
