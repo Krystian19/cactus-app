@@ -101,15 +101,6 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Setup base Google Analytics snippet to check the amount of people in the app right now
   + - [ ] Setup base Google Analytics snippet to check the amount of people in an specific episode
     + - [ ] Setup DB support to save Google Analytics snippets to be rendered on every episode of any series.
-
-
-
-
-
-
-
-
-
 + - [ ] Create an infraestructure repo for the cactus project
 + - [ ] Setup multi-language support for the app
   + - [x] Setup a way of signaling that an episode is only available in a certain language
@@ -146,7 +137,6 @@ And voilà, the web client should be running @ http://localhost:5000/
   + - [ ] Create a method of handling request failures that can be used universally between components.
 + - [ ] Add more series to the backend-admin's seeding script data
 + - [ ] Complete missing tests of backend admin's models
-+ - [ ] Complete model tests for the db module
 
 ## License
 MIT © [Jan Guzman](https://github.com/Krystian19)
