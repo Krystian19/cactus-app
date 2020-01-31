@@ -79,9 +79,8 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [x] Improve shell script on the wait.sh in the client's CI pipeline, to avoid waiting forever for the build to finalize.
 + - [ ] Setup an Object generator for the types used in the testing files https://medium.com/@jaferson123/tdd-factory-generator-with-factory-ts-and-faker-js-to-ease-your-testing-in-typescript-applications-5afdd45e6e8
   + - [ ] Avoid cyclic releations on data
-
 + - [x] Replace query strings with multiline strings in the core service to make the queries more readable.
-+ - [ ] Inside of the query strings in the core service, use the table name coming from the model functions intead of hardcoding them.
++ - [x] Inside of the query strings in the core service, use the table name coming from the model functions instead of hardcoding them.
 + - [ ] Remove test.jpg and test.mp4 from lfs to ensure that when the projects are cloned without lfs, those files are always present.
 + - [ ] Take into account that with the new changes, Movies/Specials will appear on the Hottest/Newest Episodes section (in the title it should show that it is a movie or an special)
 + - [ ] In the Anime Search view thumbnails show the name of the anime and the season, (Not the seasons's name)
