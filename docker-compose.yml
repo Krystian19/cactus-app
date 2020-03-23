@@ -45,8 +45,6 @@ services:
       - cactus.postgres
     depends_on:
       cactus.postgres:
-        condition: service_started
-      cactus.postgres:
         condition: service_healthy
 
   cactus.bff:
@@ -58,8 +56,6 @@ services:
     links:
       - cactus.core
     depends_on:
-      cactus.core:
-        condition: service_started
       cactus.core:
         condition: service_healthy
     ports: ['4000:3000']
@@ -78,9 +74,7 @@ services:
     volumes:
       - ./core:/go/src/app
     links:
-      - cactus.core
-    depends_on:
-      - cactus.core
+      - cactus.postgres
     ports: ['9040:9040']
     environment:
       DB_HOST: "cactus.postgres"
@@ -93,11 +87,7 @@ services:
       interval: 10s
       timeout: 5s
       retries: 10
-    links:
-      - cactus.postgres
     depends_on:
-      cactus.postgres:
-        condition: service_started
       cactus.postgres:
         condition: service_healthy
   
@@ -129,8 +119,6 @@ services:
       - cactus.video_cdn
       - cactus.logger
     depends_on:
-      cactus.bff:
-        condition: service_started
       cactus.bff:
         condition: service_healthy
   
