@@ -71,6 +71,7 @@ services:
     container_name: cactus_core
     build:
       ./core
+    dockerfile: Dockerfile.dev
     volumes:
       - ./core:/go/src/app
     links:
