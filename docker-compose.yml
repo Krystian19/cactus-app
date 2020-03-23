@@ -73,7 +73,7 @@ services:
       context: ./core
       dockerfile: Dockerfile.dev
     volumes:
-      - ./core:/go/src/app
+      - ./core:/app
     links:
       - cactus.postgres
     ports: ['9040:9040']
