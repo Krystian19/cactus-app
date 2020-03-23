@@ -70,8 +70,8 @@ services:
   cactus.core:
     container_name: cactus_core
     build:
-      ./core
-    dockerfile: Dockerfile.dev
+      context: ./core
+      dockerfile: Dockerfile.dev
     volumes:
       - ./core:/go/src/app
     links:
