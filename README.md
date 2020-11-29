@@ -45,6 +45,18 @@ Clone this project with all of it's modules recursively (it's a little heavy, so
 git clone --recurse-submodules git@github.com:Krystian19/cactus-app.git
 ```
 
+Export your credentials on your PATH:
+```sh
+# You will get your access token here https://github.com/settings/tokens (with access to private repos permission)
+export ACCESS_TOKEN_USR=YOUR_GITHUB_USER
+export ACCESS_TOKEN_PWD=GITHUB_ACCESS_TOKEN
+```
+
+Build your images:
+```sh
+docker-compose build --build-arg ACCESS_TOKEN_USR=${ACCESS_TOKEN_USR} --build-arg ACCESS_TOKEN_PWD=${ACCESS_TOKEN_PWD}
+```
+
 And start the project with:
 ```sh
 docker-compose up -d
