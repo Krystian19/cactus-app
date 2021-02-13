@@ -1,7 +1,7 @@
 # Cactus app 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Krystian19/cactus-app.svg?style=popout-square) ![GitHub](https://img.shields.io/github/license/Krystian19/cactus-app.svg?style=popout-square)
 
-Cactus app is an open source service to stream your favorite anime.
+Cactus app is a demonstration service to stream your favorite anime. Built in mostly Go and TypeScript.
 
 ## Services
 |  [Client Repo](https://github.com/Krystian19/cactus-app-client-service) | [BFF Repo](https://github.com/Krystian19/cactus-app-bff-service/tree/master) | [Core Repo](https://github.com/Krystian19/cactus-app-core-service/tree/master) |
@@ -29,7 +29,7 @@ Cactus app is an open source service to stream your favorite anime.
 + **Do you have Docker installed ?**
 ```sh
 docker -v
-  Docker version 18.03.0-ce # Or later
+  Docker version 20.10.2 # Or later
 ```
 
 + **Do you have git-lfs installed ?**
@@ -69,23 +69,6 @@ docker exec -ti cactus_admin /code/seeds.sh
 ```
 
 And voilà, the web client should be running @ http://localhost:5000/
-
-## Glossary of UI routes
-
-- Web Client
-    - Running @ http://localhost:5000
-
-- GraphQL playground
-    - Running @ http://localhost:4000
-
-- Logger service UI
-    - Running @ http://localhost:4040
-
-- Content Admin panel
-    - Running @ http://localhost:6500/admin
-
-- PgAdmin Instance, User: "postgres", Password: "secret" (connect to cactus.postgres host)
-    - Running @ http://localhost:5050
 
 ## Todos
 + - [x] Enforce function return type on the client's code
