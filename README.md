@@ -1,5 +1,5 @@
 # Cactus app 
-![GitHub last commit](https://img.shields.io/github/last-commit/Krystian19/cactus-app.svg?style=popout-square) ![GitHub](https://img.shields.io/github/license/Krystian19/cactus-app.svg?style=popout-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/Krystian19/cactus-app.svg?style=popout-square)
 
 Cactus app is a demonstration service to stream your favorite anime. Built in mostly Go and TypeScript.
 
