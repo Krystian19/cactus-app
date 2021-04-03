@@ -129,4 +129,4 @@ And voilà, the web client should be running @ http://localhost:5000/
 + - [ ] Complete missing tests of backend admin's models
 
 ## License
-MIT © [Jan Guzman](https://github.com/Krystian19)
+© [Jan Guzman](https://github.com/Krystian19)
